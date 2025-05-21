@@ -1,1 +1,71 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --main-bg: #e2d3e86e;
+  --primary-color: #4E1361;
+  --font-titles: 'Quicksand', sans-serif;
+  --font-text: 'Nunito', sans-serif;
+  --icon-color: #3D1638;
+  --icon-hover: #A06399;
+}
+
+/* ---- MAIN STYLES ---- */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-bg);
+}
+
+body {
+    background-color: var(--main-bg);
+}
+
+main {
+    flex: 1;
+}
+
+header {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+.h1{
+    font-size: 60px;
+    font-family: var(--font-titles);
+    color: var(--icon-color);
+}
+.h4{
+    font-size: 25px;
+    font-family: var(--font-text);
+    color: var(--icon-color);
+}
+hr{
+    border: 1px solid var(--icon-color);
+}
+
+/* ----- NAVIGATION BAR STYLES ----- */
+
+.nav-item a:hover {
+    color: var(--icon-hover) !important;
+}
+
+.navbar {
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.nav-link {
+    color: var(--icon-color) !important;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.icon {
+    color: var(--icon-color);
+}
+.icon:hover {
+    color: var(--icon-hover);
+}
+
+

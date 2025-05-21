@@ -1,0 +1,24 @@
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { HeaderComponent } from './shared/header/header.component';
+import { FooterComponent } from './shared/footer/footer.component';
+import { SwipePageComponent } from './pages/swipe-page/swipe-page.component';
+import { TimelineComponent } from './components/timeline/timeline.component';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    SwipePageComponent,
+    TimelineComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule
+  ],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }

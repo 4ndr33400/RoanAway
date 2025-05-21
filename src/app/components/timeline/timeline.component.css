@@ -1,0 +1,23 @@
+.timeline {
+  gap: 10px;
+}
+
+.circle {
+  width: 24px;
+  height: 24px;
+  border: 2px solid #4E1361;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: transparent;
+  transition: background-color 0.3s;
+}
+
+.circle.active {
+  background-color: #4E1361;
+}
+
+.line {
+  width: 40px;
+  height: 2px;
+  background-color: #4E1361;
+}

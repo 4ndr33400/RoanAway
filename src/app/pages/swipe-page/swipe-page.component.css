@@ -1,0 +1,26 @@
+.timeline-container {
+  width: 100%;
+  position: relative;
+  padding: 20px 0;
+}
+
+.timeline-step {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #4E1361; /* tu color principal */
+  border-radius: 50%;
+  background-color: transparent;
+  z-index: 2;
+}
+
+.timeline-step.active {
+  background-color: #4E1361;
+}
+
+.timeline-line {
+  flex-grow: 1;
+  height: 2px;
+  border-top: 2px dashed #4E1361;
+  margin: 0 20px;
+  z-index: 1;
+}
