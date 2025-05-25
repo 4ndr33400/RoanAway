@@ -1,36 +1,41 @@
 <main class="container-fluid">
-    <div class="row mx-5 my-3 p-4 p-md-5 bg-white rounded shadow-lg">
+  <div class="row mx-5 my-3 p-4 p-md-5 bg-white rounded shadow-lg">
 
-        <!-- Columna izquierda: Mapa -->
-        <div class="col-md-5 mb-4 mb-md-0">
-            <div id="map" style="width: 90%; height: 500px; background-color: #eee;">
-                <!-- Aquí va el mapa de Google Maps o Leaflet -->
-            </div>
-        </div>
-
-        <!-- Columna derecha: Info del itinerario -->
-        <div class="col-md-7">
-            <h2 class="h1 mb-3">Japón</h2>
-            <h3 class="h4 mb-1">Kioto, Tokyo</h3>
-            <hr>
-
-            <div class="timeline-container d-flex align-items-center justify-content-between">
-                <div class="timeline-step active"></div>
-                <div class="timeline-line"></div>
-                <div class="timeline-step"></div>
-                <div class="timeline-line"></div>
-                <div class="timeline-step"></div>
-                <div class="timeline-line"></div>
-                <div class="timeline-step"></div>
-                <div class="timeline-line"></div>
-                <div class="timeline-step"></div>
-            </div>
-            <div class="container my-5">
-  <app-timeline [activitiesPerDay]="itinerario"></app-timeline>
-</div>
-
-
-        </div>
-
+    <!-- Columna izquierda: Mapa -->
+    <div class="col-md-5 mb-4 mb-md-0">
+      <div id="map" style="width: 90%; height: 500px; background-color: #eee;">
+        <!-- Aquí va el mapa de Google Maps o Leaflet -->
+      </div>
     </div>
+    <!-- Columna derecha: Info del itinerario -->
+    <div class="col-md-7">
+      <!-- Izquierda: título, ciudades y resumen pequeño -->
+      <div>
+        <h2 class="h1 mb-3">Japón</h2>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex align-items-center gap-3">
+            <h3 class="h4 mb-1">Kioto, Tokyo</h3>
+            <small class="text-muted">( 7 días • Intermedio • Aventura )</small>
+          </div>
+
+          <div class="text-end small text-muted d-flex gap-3 align-items-center">
+            <div><i class="bi bi-currency-pound"></i> WON</div>
+            <div><i class="bi bi-translate"></i> Japonés</div>
+            <div><i class="bi bi-sun"></i> Primavera</div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="mt-4">
+        <app-timeline [activitiesPerDay]="itinerario"></app-timeline>
+      </div>
+    </div>
+    <!-- Botones de Descartar/Me gusta-->
+    <div class="action-buttons mt-3 d-flex gap-3 justify-content-end">
+      <button class="btn-dislike" (click)="descartarItinerario()">Descartar</button>
+      <button class="btn-like" (click)="guardarItinerario()"><i class="bi bi-heart-fill me-2"></i>
+        Me gusta</button>
+    </div>
+
+  </div>
 </main>

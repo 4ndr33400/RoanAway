@@ -1,16 +1,20 @@
 .timeline-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
   width: 100%;
-  position: relative;
-  padding: 20px 0;
 }
 
 .timeline-step {
   width: 30px;
   height: 30px;
-  border: 2px solid #4E1361; /* tu color principal */
+  border: 2px solid #4E1361;
   border-radius: 50%;
   background-color: transparent;
-  z-index: 2;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  flex-shrink: 0; /* que no se achiquen */
 }
 
 .timeline-step.active {
@@ -18,9 +22,44 @@
 }
 
 .timeline-line {
-  flex-grow: 1;
+  flex-grow: 1; /* que ocupe el espacio disponible */
   height: 2px;
   border-top: 2px dashed #4E1361;
-  margin: 0 20px;
-  z-index: 1;
+  margin: 0 30px; /* separación entre bola y línea */
+}
+.action-buttons {
+  /* para que estén a la izquierda, pero puedes ajustar el margen */
+  margin-left: 0;
+}
+
+.btn-like, .btn-dislike {
+  font-family: var(--font-text);
+  font-weight: 600;
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  background-color: var(--main-bg);
+  color: var(--primary-color);
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+.btn-like {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+}
+
+.btn-dislike {
+  font-size: 1rem;  /* más pequeño */
+  padding: 4px 10px; /* menos padding */
+}
+
+.btn-like:hover {
+  background-color: var(--primary-color);
+  color: white;
+  transform: scale(1.05);
+}
+
+.btn-dislike:hover {
+  background-color: #A06399;
+  color: white;
+  transform: scale(1.05);
 }

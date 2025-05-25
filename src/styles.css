@@ -67,5 +67,7 @@ hr{
 .icon:hover {
     color: var(--icon-hover);
 }
-
+.text-muted{
+    color: var(--icon-color) !important;
+}
 

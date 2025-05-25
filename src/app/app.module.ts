@@ -6,6 +6,8 @@ import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { SwipePageComponent } from './pages/swipe-page/swipe-page.component';
 import { TimelineComponent } from './components/timeline/timeline.component';
+import { CommonModule } from '@angular/common'; 
+
 
 @NgModule({
   declarations: [
@@ -17,7 +19,8 @@ import { TimelineComponent } from './components/timeline/timeline.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CommonModule 
   ],
   bootstrap: [AppComponent]
 })

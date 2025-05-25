@@ -1,23 +1,98 @@
-.timeline {
-  gap: 10px;
+.timeline-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  width: 100%;
 }
 
-.circle {
-  width: 24px;
-  height: 24px;
+.timeline-step {
+  width: 30px;
+  height: 30px;
   border: 2px solid #4E1361;
   border-radius: 50%;
-  cursor: pointer;
   background-color: transparent;
-  transition: background-color 0.3s;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  flex-shrink: 0; /* que no se achiquen */
 }
 
-.circle.active {
+.timeline-step.active {
   background-color: #4E1361;
 }
 
-.line {
-  width: 40px;
+.timeline-line {
+  flex-grow: 1; /* que ocupe el espacio disponible */
   height: 2px;
-  background-color: #4E1361;
+  border-top: 2px dashed #4E1361;
+  margin: 0 30px; /* separación entre bola y línea */
+}
+
+
+.day-container {
+  max-width: 900px;
+  min-height: 270px;
+  margin: 0 auto;
+  }
+
+.day-title {
+  font-weight: 700;
+  font-size: 1.7rem;
+  margin-bottom: 15px;
+  font-family: var(--font-titles);
+  color: #4E1361;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.activity-card {
+  border: 1px solid var(--icon-color);
+  background-color: #fff;
+  padding: 30px;
+  border-left: 6px solid #4E1361;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.activity-card:hover {
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.activities-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  font-family: var(--font-text);
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.activities-list li {
+  position: relative;
+  padding-left: 25px;
+  cursor: default;
+  display: flex;
+  gap: 6px; /* espacio entre nombre y duración */
+}
+
+.activities-list li::before {
+  content: "✔";  /* Puedes cambiar por otro icono o usar SVG */
+  position: absolute;
+  left: 0;
+  top: 2px;
+  color: #4E1361;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.activities-list small {
+  margin-left: 4px;
+  font-style: italic;
+  color:var(--icon-color);
+  align-items: center;
+  font-size: 11px;
 }
