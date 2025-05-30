@@ -10,7 +10,6 @@ import { CommonModule } from '@angular/common';
 })
 export class TimelineComponent implements OnInit {
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
   }
 @Input() activitiesPerDay: { nombre: string; duracion: string }[][] = [];
 

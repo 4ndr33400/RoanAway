@@ -1,41 +1,38 @@
 <main class="container-fluid">
-  <div class="row mx-5 my-3 p-4 p-md-5 bg-white rounded shadow-lg">
+  <div class="row mx-5 my-3 p-4 p-md-5 bg-white rounded shadow-lg g-5">
 
-    <!-- Columna izquierda: Mapa -->
-    <div class="col-md-5 mb-4 mb-md-0">
-      <div id="map" style="width: 90%; height: 500px; background-color: #eee;">
-        <!-- Aquí va el mapa de Google Maps o Leaflet -->
-      </div>
-    </div>
-    <!-- Columna derecha: Info del itinerario -->
-    <div class="col-md-7">
-      <!-- Izquierda: título, ciudades y resumen pequeño -->
-      <div>
-        <h2 class="h1 mb-3">Japón</h2>
-        <div class="d-flex justify-content-between align-items-center">
-          <div class="d-flex align-items-center gap-3">
-            <h3 class="h4 mb-1">Kioto, Tokyo</h3>
-            <small class="text-muted">( 7 días • Intermedio • Aventura )</small>
-          </div>
-
-          <div class="text-end small text-muted d-flex gap-3 align-items-center">
-            <div><i class="bi bi-currency-pound"></i> WON</div>
-            <div><i class="bi bi-translate"></i> Japonés</div>
-            <div><i class="bi bi-sun"></i> Primavera</div>
-          </div>
+    <!-- Fila 1: Título e info del itinerario ocupando todo el ancho -->
+    <div class="col-12">
+      <h2 class="h1 mb-3" [ngClass]="animacion">{{ itinerarioActual.destino }}</h2>
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center gap-3">
+          <h3 class="h4 mb-1" [ngClass]="animacion">{{ itinerarioActual.ciudades }}</h3>
+          <small class="text-muted" [ngClass]="animacion">
+            ({{ itinerarioActual.dias }} días • {{ itinerarioActual.presupuesto }} • {{ itinerarioActual.tipo }})
+          </small>
+        </div>
+        <div class="text-end small text-muted d-flex gap-3 align-items-center" [ngClass]="animacion">
+          <div><i class="bi bi-currency-pound"></i> {{ itinerarioActual.moneda }}</div>
+          <div><i class="bi bi-translate"></i> {{ itinerarioActual.idioma }}</div>
+          <div><i class="bi bi-sun"></i> {{ itinerarioActual.epoca }}</div>
         </div>
       </div>
       <hr>
-      <div class="mt-4">
-        <app-timeline [activitiesPerDay]="itinerario"></app-timeline>
-      </div>
-    </div>
-    <!-- Botones de Descartar/Me gusta-->
-    <div class="action-buttons mt-3 d-flex gap-3 justify-content-end">
-      <button class="btn-dislike" (click)="descartarItinerario()">Descartar</button>
-      <button class="btn-like" (click)="guardarItinerario()"><i class="bi bi-heart-fill me-2"></i>
-        Me gusta</button>
     </div>
 
+    <!-- Fila 2: Actividades y Mapa lado a lado -->
+    <div class="col-md-7 d-flex flex-column justify-content-center">
+      <app-timeline [activitiesPerDay]="itinerarioActual.actividades"></app-timeline>
+    </div>
+
+    <div class="col-md-5 d-flex flex-column justify-content-center map-container">
+      <app-map></app-map>
+    </div>
+
+    <!-- Botones de acción al final, a la derecha -->
+    <div class="col-12 d-flex gap-3 justify-content-end mt-3">
+      <button class="btn-dislike" (click)="descartarItinerario()">Descartar</button>
+      <button class="btn-like" (click)="guardarItinerario()"><i class="bi bi-heart-fill me-2"></i>Me gusta</button>
+    </div>
   </div>
 </main>

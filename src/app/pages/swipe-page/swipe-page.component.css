@@ -1,32 +1,4 @@
-.timeline-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 50px;
-  width: 100%;
-}
 
-.timeline-step {
-  width: 30px;
-  height: 30px;
-  border: 2px solid #4E1361;
-  border-radius: 50%;
-  background-color: transparent;
-  cursor: pointer;
-  transition: background-color 0.2s;
-  flex-shrink: 0; /* que no se achiquen */
-}
-
-.timeline-step.active {
-  background-color: #4E1361;
-}
-
-.timeline-line {
-  flex-grow: 1; /* que ocupe el espacio disponible */
-  height: 2px;
-  border-top: 2px dashed #4E1361;
-  margin: 0 30px; /* separación entre bola y línea */
-}
 .action-buttons {
   /* para que estén a la izquierda, pero puedes ajustar el margen */
   margin-left: 0;
@@ -62,4 +34,25 @@
   background-color: #A06399;
   color: white;
   transform: scale(1.05);
+}
+.swipe-left {
+  animation: swipeLeft 0.5s forwards;
+}
+
+.swipe-right {
+  animation: swipeRight 0.5s forwards;
+}
+
+@keyframes swipeLeft {
+  to {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+@keyframes swipeRight {
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
 }

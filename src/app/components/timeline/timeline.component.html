@@ -1,5 +1,5 @@
 <!-- Línea del timeline -->
-<div class="timeline-container">
+<div class="timeline-container mb-2">
   <ng-container *ngFor="let day of activitiesPerDay; let i = index">
     <div
       class="timeline-step"
@@ -11,14 +11,19 @@
 </div>
 
 <!-- Actividades del día seleccionado -->
-<div class="mt-4 day-container activity-card mb-2">
+<div class="mt-4 day-container activity-card">
   <h5 class="day-title">Día {{ selectedDay + 1 }}</h5>
   <hr/>
-  <ul class="ps-3 activities-list">
-  <li *ngFor="let actividad of actividadesDelDia" >
-    {{ actividad.nombre }} <small class="text-muted">({{ actividad.duracion }})</small>
-  </li>
-</ul>
+  <div class="d-flex flex-column flex-md-row gap-4 align-items-start">
+    <!-- Lista de actividades -->
+    <ul class="ps-3 flex-grow-1 activities-list">
+      <li *ngFor="let actividad of actividadesDelDia" class="mb-2">
+        {{ actividad.nombre }}<br>
+        <small class="text-muted">Duración: {{ actividad.duracion }}</small>
+      </li>
+    </ul>
+  </div>
 </div>
+
 
 

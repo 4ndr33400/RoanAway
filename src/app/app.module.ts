@@ -7,6 +7,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { SwipePageComponent } from './pages/swipe-page/swipe-page.component';
 import { TimelineComponent } from './components/timeline/timeline.component';
 import { CommonModule } from '@angular/common'; 
+import { MapComponent } from './map/map.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { CommonModule } from '@angular/common';
     HeaderComponent,
     FooterComponent,
     SwipePageComponent,
-    TimelineComponent
+    TimelineComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,

@@ -31,7 +31,7 @@
 
 .day-container {
   max-width: 900px;
-  min-height: 270px;
+
   margin: 0 auto;
   }
 
@@ -68,15 +68,15 @@
   gap: 14px;
   font-family: var(--font-text);
   font-size: 1.2rem;
-  color: #333;
 }
 
 .activities-list li {
   position: relative;
-  padding-left: 25px;
-  cursor: default;
-  display: flex;
-  gap: 6px; /* espacio entre nombre y duración */
+  padding-left: 15px;
+  /* QUITA esto ⬇️ */
+  /* display: flex; */
+  /* gap: 6px; */
+  display: block; /* NUEVO */
 }
 
 .activities-list li::before {
