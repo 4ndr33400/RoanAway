@@ -1,0 +1,368 @@
+[
+  {
+    "pais": "Japón",
+    "destino": "Japón",
+    "ciudades": "Kioto, Tokyo",
+    "dias": 7,
+    "presupuesto": "Intermedio",
+    "tipo": "Aventura",
+    "moneda": "WON",
+    "idioma": "Japonés",
+    "epoca": "Primavera",
+    "actividades": [
+      [
+        { "nombre": "Llegada a Kioto", "duracion": "1h", "lat": 35.0116, "lng": 135.7681 },
+        { "nombre": "Check-in en el hotel", "duracion": "0.5h", "lat": 35.0116, "lng": 135.7681 },
+        { "nombre": "Paseo por Gion", "duracion": "2h", "lat": 35.0037, "lng": 135.7788 },
+        { "nombre": "Cena en izakaya tradicional", "duracion": "1.5h", "lat": 35.0037, "lng": 135.7788 }
+      ],
+      [
+        { "nombre": "Templo Fushimi Inari", "duracion": "2h", "lat": 34.9671, "lng": 135.7727 },
+        { "nombre": "Comida en Nishiki Market", "duracion": "1h", "lat": 35.0045, "lng": 135.7650 },
+        { "nombre": "Templo Kinkaku-ji", "duracion": "1.5h", "lat": 35.0394, "lng": 135.7292 },
+        { "nombre": "Paseo por Arashiyama", "duracion": "2h", "lat": 35.0094, "lng": 135.6676 }
+      ],
+      [
+        { "nombre": "Viaje a Tokio", "duracion": "3h", "lat": 35.6762, "lng": 139.6503 },
+        { "nombre": "Check-in", "duracion": "0.5h", "lat": 35.6762, "lng": 139.6503 },
+        { "nombre": "Barrio de Akihabara", "duracion": "3h", "lat": 35.7023, "lng": 139.7745 },
+        { "nombre": "Cena ramen", "duracion": "1.5h", "lat": 35.7023, "lng": 139.7745 }
+      ],
+      [
+        { "nombre": "Tour por Shibuya y Harajuku", "duracion": "4h", "lat": 35.6702, "lng": 139.7020 },
+        { "nombre": "Museo TeamLab", "duracion": "2h", "lat": 35.6250, "lng": 139.7760 },
+        { "nombre": "Tarde en Shinjuku", "duracion": "3h", "lat": 35.6938, "lng": 139.7034 }
+      ],
+      [
+        { "nombre": "Día libre para compras", "duracion": "Todo el día", "lat": 35.6762, "lng": 139.6503 },
+        { "nombre": "Última cena en Tokio", "duracion": "2h", "lat": 35.6762, "lng": 139.6503 }
+      ]
+    ]
+  },
+  {
+    "pais": "Estados Unidos",
+    "destino": "Estados Unidos",
+    "ciudades": "Nueva York",
+    "dias": 5,
+    "presupuesto": "Premium",
+    "tipo": "Urbano",
+    "moneda": "USD",
+    "idioma": "Inglés",
+    "epoca": "Otoño",
+    "actividades": [
+      [
+        { "nombre": "Llegada a NY y hotel", "duracion": "1h", "lat": 40.7128, "lng": -74.0060 },
+        { "nombre": "Paseo por Central Park", "duracion": "2h", "lat": 40.7851, "lng": -73.9683 },
+        { "nombre": "Cena en Times Square", "duracion": "1.5h", "lat": 40.7580, "lng": -73.9855 }
+      ],
+      [
+        { "nombre": "Visita a la Estatua de la Libertad", "duracion": "3h", "lat": 40.6892, "lng": -74.0445 },
+        { "nombre": "Museo del 11-S", "duracion": "2h", "lat": 40.7115, "lng": -74.0134 },
+        { "nombre": "Comida callejera", "duracion": "1h", "lat": 40.7306, "lng": -73.9866 }
+      ],
+      [
+        { "nombre": "Empire State Building", "duracion": "1.5h", "lat": 40.7484, "lng": -73.9857 },
+        { "nombre": "Recorrido por Brooklyn", "duracion": "2.5h", "lat": 40.6782, "lng": -73.9442 },
+        { "nombre": "Espectáculo en Broadway", "duracion": "2h", "lat": 40.7590, "lng": -73.9845 }
+      ],
+      [
+        { "nombre": "Compras en la Quinta Avenida", "duracion": "3h", "lat": 40.7615, "lng": -73.9740 },
+        { "nombre": "MOMA o MET", "duracion": "2h", "lat": 40.7794, "lng": -73.9632 },
+        { "nombre": "Cena elegante", "duracion": "2h", "lat": 40.7615, "lng": -73.9740 }
+      ],
+      [
+        { "nombre": "Brunch", "duracion": "1.5h", "lat": 40.7411, "lng": -73.9897 },
+        { "nombre": "Paseo por High Line", "duracion": "1.5h", "lat": 40.7479, "lng": -74.0048 },
+        { "nombre": "Despedida y aeropuerto", "duracion": "2h", "lat": 40.6413, "lng": -73.7781 }
+      ]
+    ]
+  },
+  {
+    "pais": "Italia",
+    "destino": "Italia",
+    "ciudades": "Roma, Florencia",
+    "dias": 6,
+    "presupuesto": "Intermedio",
+    "tipo": "Cultural",
+    "moneda": "EUR",
+    "idioma": "Italiano",
+    "epoca": "Verano",
+    "actividades": [
+      [
+        { "nombre": "Coliseo y Foro Romano", "duracion": "3h", "lat": 41.8902, "lng": 12.4922 },
+        { "nombre": "Paseo por Trastevere", "duracion": "2h", "lat": 41.8897, "lng": 12.4663 },
+        { "nombre": "Gelato en Fontana di Trevi", "duracion": "1h", "lat": 41.9009, "lng": 12.4833 }
+      ],
+      [
+        { "nombre": "Vaticano y Capilla Sixtina", "duracion": "3h", "lat": 41.9029, "lng": 12.4534 },
+        { "nombre": "Piazza Navona", "duracion": "1h", "lat": 41.8992, "lng": 12.4731 },
+        { "nombre": "Castel Sant'Angelo", "duracion": "1.5h", "lat": 41.9031, "lng": 12.4663 }
+      ],
+      [
+        { "nombre": "Viaje a Florencia", "duracion": "2h", "lat": 43.7696, "lng": 11.2558 },
+        { "nombre": "Ponte Vecchio", "duracion": "1h", "lat": 43.7679, "lng": 11.2536 },
+        { "nombre": "Piazza della Signoria", "duracion": "1h", "lat": 43.7694, "lng": 11.2556 }
+      ],
+      [
+        { "nombre": "Galería Uffizi", "duracion": "2h", "lat": 43.7687, "lng": 11.2550 },
+        { "nombre": "Catedral de Florencia", "duracion": "1.5h", "lat": 43.7730, "lng": 11.2551 },
+        { "nombre": "Subida al Campanile", "duracion": "1h", "lat": 43.7731, "lng": 11.2554 }
+      ],
+      [
+        { "nombre": "Compras y descanso", "duracion": "2h", "lat": 43.7696, "lng": 11.2558 },
+        { "nombre": "Cena con vistas", "duracion": "2h", "lat": 43.7696, "lng": 11.2558 },
+        { "nombre": "Paseo nocturno", "duracion": "1h", "lat": 43.7696, "lng": 11.2558 }
+      ],
+      [
+        { "nombre": "Último café italiano", "duracion": "1h", "lat": 43.7696, "lng": 11.2558 },
+        { "nombre": "Aeropuerto", "duracion": "2h", "lat": 43.8096, "lng": 11.2059 }
+      ]
+    ]
+  },
+  {
+    "pais": "Tailandia",
+    "destino": "Tailandia",
+    "ciudades": "Bangkok, Chiang Mai",
+    "dias": 6,
+    "presupuesto": "Económico",
+    "tipo": "Exótico",
+    "moneda": "THB",
+    "idioma": "Tailandés",
+    "epoca": "Invierno",
+    "actividades": [
+      [
+        { "nombre": "Llegada y check-in en Bangkok", "duracion": "1h", "lat": 13.7563, "lng": 100.5018 },
+        { "nombre": "Templo Wat Arun", "duracion": "2h", "lat": 13.7437, "lng": 100.4889 },
+        { "nombre": "Mercado nocturno", "duracion": "2h", "lat": 13.7563, "lng": 100.5018 }
+      ],
+      [
+        { "nombre": "Gran Palacio y Wat Pho", "duracion": "3h", "lat": 13.7500, "lng": 100.4913 },
+        { "nombre": "Paseo en tuk tuk", "duracion": "1h", "lat": 13.7563, "lng": 100.5018 },
+        { "nombre": "Cena tailandesa", "duracion": "2h", "lat": 13.7563, "lng": 100.5018 }
+      ],
+      [
+        { "nombre": "Vuelo a Chiang Mai", "duracion": "1h", "lat": 18.7883, "lng": 98.9853 },
+        { "nombre": "Visita al templo Doi Suthep", "duracion": "2h", "lat": 18.8044, "lng": 98.9217 },
+        { "nombre": "Night Bazaar", "duracion": "2h", "lat": 18.7877, "lng": 98.9931 }
+      ],
+      [
+        { "nombre": "Santuario de elefantes", "duracion": "3h", "lat": 18.7969, "lng": 99.0050 },
+        { "nombre": "Cocina tailandesa (curso)", "duracion": "2h", "lat": 18.7877, "lng": 98.9931 },
+        { "nombre": "Masaje tailandés", "duracion": "1h", "lat": 18.7877, "lng": 98.9931 }
+      ],
+      [
+        { "nombre": "Templo escondido", "duracion": "2h", "lat": 18.8000, "lng": 98.9700 },
+        { "nombre": "Café con vistas", "duracion": "1.5h", "lat": 18.7950, "lng": 98.9800 },
+        { "nombre": "Cena de despedida", "duracion": "2h", "lat": 18.7877, "lng": 98.9931 }
+      ],
+      [
+        { "nombre": "Vuelta a Bangkok y aeropuerto", "duracion": "3h", "lat": 13.6900, "lng": 100.7501 }
+      ]
+    ]
+  },
+  {
+    "pais": "Canadá",
+    "destino": "Canadá",
+    "ciudades": "Toronto, Cataratas del Niágara",
+    "dias": 5,
+    "presupuesto": "Alto",
+    "tipo": "Naturaleza",
+    "moneda": "CAD",
+    "idioma": "Inglés / Francés",
+    "epoca": "Verano",
+    "actividades": [
+      [
+        { "nombre": "Llegada a Toronto y hotel", "duracion": "1h", "lat": 43.6511, "lng": -79.3470 },
+        { "nombre": "Subida a CN Tower", "duracion": "2h", "lat": 43.6426, "lng": -79.3871 },
+        { "nombre": "Cena en Queen Street", "duracion": "1.5h", "lat": 43.6517, "lng": -79.3825 }
+      ],
+      [
+        { "nombre": "Museo Real de Ontario", "duracion": "2h", "lat": 43.6677, "lng": -79.3948 },
+        { "nombre": "Paseo por Harbourfront", "duracion": "2h", "lat": 43.6380, "lng": -79.3712 },
+        { "nombre": "Cena ligera", "duracion": "1h", "lat": 43.6517, "lng": -79.3825 }
+      ],
+      [
+        { "nombre": "Viaje a Cataratas del Niágara", "duracion": "1.5h", "lat": 43.0962, "lng": -79.0377 },
+        { "nombre": "Paseo por las cataratas", "duracion": "3h", "lat": 43.0828, "lng": -79.0742 },
+        { "nombre": "Comida cerca de las cataratas", "duracion": "1h", "lat": 43.0830, "lng": -79.0735 }
+      ],
+      [
+        { "nombre": "Tour en barco Maid of the Mist", "duracion": "1.5h", "lat": 43.0828, "lng": -79.0742 },
+        { "nombre": "Regreso a Toronto", "duracion": "1.5h", "lat": 43.6511, "lng": -79.3470 },
+        { "nombre": "Cena de despedida", "duracion": "2h", "lat": 43.6517, "lng": -79.3825 }
+      ],
+      [
+        { "nombre": "Mañana libre y aeropuerto", "duracion": "2h", "lat": 43.6511, "lng": -79.3470 }
+      ]
+    ]
+  },
+   {
+    "pais": "Venezuela",
+    "destino": "Venezuela",
+    "ciudades": "La Guaira, Caracas",
+    "dias": 5,
+    "presupuesto": "Bajo",
+    "tipo": "Playa y Cultura",
+    "moneda": "VES",
+    "idioma": "Español",
+    "epoca": "Invierno",
+    "actividades": [
+      [
+        { "nombre": "Llegada a La Guaira", "duracion": "1h", "lat": 10.6000, "lng": -66.9300 },
+        { "nombre": "Check-in hotel", "duracion": "0.5h", "lat": 10.6000, "lng": -66.9300 },
+        { "nombre": "Visita al Malecón de La Guaira", "duracion": "2h", "lat": 10.5972, "lng": -66.9286 },
+        { "nombre": "Cena en restaurante local", "duracion": "1.5h", "lat": 10.6000, "lng": -66.9300 }
+      ],
+      [
+        { "nombre": "Excursión a Playa Caribe", "duracion": "4h", "lat": 10.5910, "lng": -66.9180 },
+        { "nombre": "Almuerzo en Playa Caribe", "duracion": "1h", "lat": 10.5910, "lng": -66.9180 }
+      ],
+      [
+        { "nombre": "Visita a Caracas: Parque Central", "duracion": "3h", "lat": 10.4925, "lng": -66.8809 },
+        { "nombre": "Museo de Arte Contemporáneo", "duracion": "2h", "lat": 10.4885, "lng": -66.8996 }
+      ],
+      [
+        { "nombre": "Tour histórico por La Guaira", "duracion": "3h", "lat": 10.5965, "lng": -66.9270 },
+        { "nombre": "Tarde libre", "duracion": "Resto del día", "lat": 10.6000, "lng": -66.9300 }
+      ],
+      [
+        { "nombre": "Desayuno tranquilo", "duracion": "1h", "lat": 10.6000, "lng": -66.9300 },
+        { "nombre": "Salida y despedida", "duracion": "1h", "lat": 10.6000, "lng": -66.9300 }
+      ]
+    ]
+  },
+  {
+    "pais": "Fiyi",
+    "destino": "Islas Fiji",
+    "ciudades": "Suva",
+    "dias": 6,
+    "presupuesto": "Alto",
+    "tipo": "Aventura y Relax",
+    "moneda": "FJD",
+    "idioma": "Inglés",
+    "epoca": "Verano",
+    "actividades": [
+      [
+        { "nombre": "Llegada a Suva", "duracion": "1h", "lat": -18.1416, "lng": 178.4419 },
+        { "nombre": "Check-in resort", "duracion": "1h", "lat": -18.1416, "lng": 178.4419 },
+        { "nombre": "Paseo por la ciudad", "duracion": "2h", "lat": -18.142, "lng": 178.441 },
+        { "nombre": "Cena con vista al mar", "duracion": "2h", "lat": -18.1416, "lng": 178.4419 }
+      ],
+      [
+        { "nombre": "Snorkeling en la barrera coralina", "duracion": "4h", "lat": -18.1700, "lng": 178.5000 }
+      ],
+      [
+        { "nombre": "Visita a las Cataratas de Bouma", "duracion": "3h", "lat": -18.1530, "lng": 178.8000 }
+      ],
+      [
+        { "nombre": "Día libre en la playa", "duracion": "Todo el día", "lat": -18.1416, "lng": 178.4419 }
+      ],
+      [
+        { "nombre": "Tour cultural fiyiano", "duracion": "3h", "lat": -18.1330, "lng": 178.4500 }
+      ],
+      [
+        { "nombre": "Cena de despedida", "duracion": "2h", "lat": -18.1416, "lng": 178.4419 }
+      ]
+    ]
+  },
+  {
+    "pais": "Australia",
+    "destino": "Australia",
+    "ciudades": "Sídney",
+    "dias": 5,
+    "presupuesto": "Alto",
+    "tipo": "Ciudad y Naturaleza",
+    "moneda": "AUD",
+    "idioma": "Inglés",
+    "epoca": "Otoño",
+    "actividades": [
+      [
+        { "nombre": "Llegada a Sídney", "duracion": "1h", "lat": -33.8688, "lng": 151.2093 },
+        { "nombre": "Check-in hotel", "duracion": "0.5h", "lat": -33.8688, "lng": 151.2093 },
+        { "nombre": "Paseo por la Ópera de Sídney", "duracion": "2h", "lat": -33.8568, "lng": 151.2153 },
+        { "nombre": "Cena en restaurante del puerto", "duracion": "1.5h", "lat": -33.8587, "lng": 151.2100 }
+      ],
+      [
+        { "nombre": "Visita a Bondi Beach", "duracion": "3h", "lat": -33.8908, "lng": 151.2743 },
+        { "nombre": "Almuerzo en la playa", "duracion": "1h", "lat": -33.8908, "lng": 151.2743 }
+      ],
+      [
+        { "nombre": "Recorrido por el Jardín Botánico", "duracion": "2h", "lat": -33.8642, "lng": 151.2166 },
+        { "nombre": "Tour en ferry por la bahía", "duracion": "3h", "lat": -33.8688, "lng": 151.2093 }
+      ],
+      [
+        { "nombre": "Visita a Darling Harbour", "duracion": "3h", "lat": -33.8750, "lng": 151.2000 }
+      ],
+      [
+        { "nombre": "Día libre para compras y relax", "duracion": "Todo el día", "lat": -33.8688, "lng": 151.2093 }
+      ]
+    ]
+  },
+  {
+    "pais": "Brasil",
+    "destino": "Brasil",
+    "ciudades": "Río de Janeiro",
+    "dias": 6,
+    "presupuesto": "Intermedio",
+    "tipo": "Fiesta y Naturaleza",
+    "moneda": "BRL",
+    "idioma": "Portugués",
+    "epoca": "Verano",
+    "actividades": [
+      [
+        { "nombre": "Llegada a Río", "duracion": "1h", "lat": -22.9068, "lng": -43.1729 },
+        { "nombre": "Check-in hotel", "duracion": "0.5h", "lat": -22.9068, "lng": -43.1729 },
+        { "nombre": "Visita a la playa de Copacabana", "duracion": "3h", "lat": -22.9711, "lng": -43.1822 },
+        { "nombre": "Cena en restaurante local", "duracion": "2h", "lat": -22.9068, "lng": -43.1729 }
+      ],
+      [
+        { "nombre": "Subida al Cristo Redentor", "duracion": "3h", "lat": -22.9519, "lng": -43.2105 }
+      ],
+      [
+        { "nombre": "Tour por el barrio de Santa Teresa", "duracion": "3h", "lat": -22.9135, "lng": -43.1807 }
+      ],
+      [
+        { "nombre": "Día en el Parque Nacional Tijuca", "duracion": "Todo el día", "lat": -22.9493, "lng": -43.2328 }
+      ],
+      [
+        { "nombre": "Cena de despedida en Lapa", "duracion": "2h", "lat": -22.9112, "lng": -43.1800 }
+      ],
+      [
+        { "nombre": "Mañana libre y salida", "duracion": "2h", "lat": -22.9068, "lng": -43.1729 }
+      ]
+    ]
+  },
+  {
+    "pais": "Argentina",
+    "destino": "Argentina",
+    "ciudades": "Buenos Aires",
+    "dias": 5,
+    "presupuesto": "Intermedio",
+    "tipo": "Cultura y Ciudad",
+    "moneda": "ARS",
+    "idioma": "Español",
+    "epoca": "Primavera",
+    "actividades": [
+      [
+        { "nombre": "Llegada a Buenos Aires", "duracion": "1h", "lat": -34.6037, "lng": -58.3816 },
+        { "nombre": "Check-in hotel", "duracion": "0.5h", "lat": -34.6037, "lng": -58.3816 },
+        { "nombre": "Tour por La Boca", "duracion": "2h", "lat": -34.6340, "lng": -58.3636 },
+        { "nombre": "Cena en San Telmo", "duracion": "1.5h", "lat": -34.6170, "lng": -58.3736 }
+      ],
+      [
+        { "nombre": "Visita al Cementerio de la Recoleta", "duracion": "2h", "lat": -34.5883, "lng": -58.3951 },
+        { "nombre": "Paseo por Palermo", "duracion": "3h", "lat": -34.5885, "lng": -58.4301 }
+      ],
+      [
+        { "nombre": "Tour por el Teatro Colón", "duracion": "2h", "lat": -34.6015, "lng": -58.3830 },
+        { "nombre": "Visita a museos de arte", "duracion": "2h", "lat": -34.6037, "lng": -58.3816 }
+      ],
+      [
+        { "nombre": "Día libre para compras y tango", "duracion": "Todo el día", "lat": -34.6037, "lng": -58.3816 }
+      ],
+      [
+        { "nombre": "Cena de despedida", "duracion": "2h", "lat": -34.6037, "lng": -58.3816 }
+      ]
+    ]
+  }
+]

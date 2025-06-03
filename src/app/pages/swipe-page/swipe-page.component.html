@@ -1,4 +1,4 @@
-<main class="container-fluid">
+<main class="container-fluid"  *ngIf="itinerarioActual">
   <div class="row mx-5 my-3 p-4 p-md-5 bg-white rounded shadow-lg g-5">
 
     <!-- Fila 1: Título e info del itinerario ocupando todo el ancho -->
@@ -26,7 +26,7 @@
     </div>
 
     <div class="col-md-5 d-flex flex-column justify-content-center map-container">
-      <app-map></app-map>
+      <app-map [actividadesPorDia]="itinerarioActual?.actividades"></app-map>
     </div>
 
     <!-- Botones de acción al final, a la derecha -->

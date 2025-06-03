@@ -8,6 +8,7 @@ import { SwipePageComponent } from './pages/swipe-page/swipe-page.component';
 import { TimelineComponent } from './components/timeline/timeline.component';
 import { CommonModule } from '@angular/common'; 
 import { MapComponent } from './map/map.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { MapComponent } from './map/map.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CommonModule 
+    CommonModule,
+    HttpClientModule 
   ],
   bootstrap: [AppComponent]
 })

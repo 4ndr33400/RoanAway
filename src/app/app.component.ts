@@ -7,8 +7,7 @@ import { SwipePageComponent } from './pages/swipe-page/swipe-page.component';
   selector: 'app-root',
   imports: [RouterOutlet, HeaderComponent, SwipePageComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
-  template: `<app-header></app-header>`
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   title = 'RoanAway-front';
