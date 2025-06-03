@@ -21,7 +21,6 @@ export class MapComponent implements OnChanges {
   private map!: L.Map;
   private markers: L.Marker[] = [];
 
-  // Aquí defines el icono morado personalizado solo una vez
   private emojiIcon = L.divIcon({
   html: `<div style="font-size: 24px; line-height: 24px;">📍</div>`,
   className: '',
@@ -61,7 +60,6 @@ export class MapComponent implements OnChanges {
     this.actividadesPorDia.forEach(dia => {
       dia.forEach(act => {
         if (act.lat && act.lng) {
-          // Usa el icono morado personalizado aquí
           const marker = L.marker([act.lat, act.lng], { icon: this.emojiIcon }).addTo(this.map);
           marker.bindPopup(`<b>${act.nombre}</b><br>Duración: ${act.duracion}`);
           this.markers.push(marker);
