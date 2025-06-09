@@ -14,11 +14,20 @@
       <div class="d-flex w-100 align-items-center">
 
         <!-- IZQUIERDA -->
-        <div class="d-flex flex-grow-1 mx-2">
+        <div class="d-flex flex-grow-1 ms-3">
           <ul class="navbar-nav mb-2 mb-lg-0 nav-underline">
+            <li class="nav-item">
+              <button class="btn btn-like" routerLink="/swipe">Itinerarios</button>
+            </li>
+
             <li class="nav-item">
               <a class="nav-link" href="misViajes.html">
                 <i class="bi bi-airplane-fill me-2"></i>Mis viajes
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/favorites">
+                <i class="fa-solid fa-heart me-2"></i>Favoritos
               </a>
             </li>
             <li class="nav-item">
@@ -29,14 +38,14 @@
           </ul>
         </div>
 
+
         <!-- CENTRO: LOGO -->
-        <div class="d-flex justify-content-center" style="min-width: 100px;">
+        <div class="navbar-center-logo" style="min-width: 100px;">
           <a class="navbar-brand d-none d-lg-block" href="dashboard.html">
-            <img src="assets\img\RoanAwayNewLogoPNG.png" alt="Roan Away Logo" height="70">
+            <img src="assets/img/RoanAwayNewLogoPNG.png" alt="Roan Away Logo" height="70">
           </a>
         </div>
 
-                
         <!-- DERECHA: CONFIGURACION & EXIT -->
         <div class="d-flex justify-content-end flex-grow-1 mx-5">
           <a class="text-decoration-none config-item me-4" data-bs-toggle="modal" data-bs-target="#settingsModal">
@@ -46,66 +55,6 @@
             <i class="fa-solid fa-right-from-bracket fa-lg icon"></i>
           </a>
         </div>
-      </div>
-    </div>
-
-
-    <!-- MENU DISPLAY FOR SMALL SCREENS -->
-    <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="offcanvasRight"
-      aria-labelledby="offcanvasRightLabel">
-      <!-- OFFCANVAS TOP ROAN AWAY LOGO -->
-      <div class="offcanvas-header">
-        <img src="assets/RoanAwayNewLogoPNG.png" alt="Roan Away Logo" height="55">
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <hr>
-      <!-- OFFCANVAS MENU -->
-      <div class="offcanvas-body">
-        <ul class="list-unstyled ps-0">
-          <!-- Dashboard link -->
-          <li class="mb-1 ms-3">
-            <button type="button" onclick="window.location.href='dashboard.html'"
-              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed">
-              <i class="fa-solid fa-gauge-high"></i> Dashboard
-            </button>
-          </li>
-          <!-- Highlights link & Dropdown -->
-          <li class="mb-1 ms-3">
-            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0" id="dropdownButton"
-              onclick="window.location.href='highlights.html'">
-              <i class="fa-solid fa-chart-line"></i> Highlights
-            </button>
-            <div class="collapse" id="dashboard-collapse">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li><a href="rankings.html?nameRanking=trendingCoins"><i class="fa-solid fa-fire"></i> Trending
-                    Coins</a></li>
-                <li><a href="rankings.html?nameRanking=topWinners"><i class="fa-solid fa-arrow-up"></i> Top Winners</a>
-                </li>
-                <li><a href="rankings.html?nameRanking=topLosers"><i class="fa-solid fa-arrow-down"></i> Top Losers</a>
-                </li>
-                <li><a href="rankings.html?nameRanking=highestVolume"><i class="fa-solid fa-star"></i> Highest
-                    Volume</a></li>
-              </ul>
-            </div>
-          </li>
-          <hr>
-          <!-- My Profile Link -->
-          <li class="mb-1 ms-3">
-            <button type="button" onclick="window.location.href='myProfile.html'"
-              class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed">
-              <i class="fa-solid fa-user"></i> My Profile
-            </button>
-          </li>
-          <hr>
-          <!-- Settings -->
-          <li class="border-top my-3"></li>
-          <li class="mb-1 ms-3">
-            <button type="button" class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-              data-bs-toggle="modal" data-bs-target="#settingsModal">
-              <i class="fa-solid fa-gear"></i> Settings
-            </button>
-          </li>
-        </ul>
       </div>
     </div>
   </div>

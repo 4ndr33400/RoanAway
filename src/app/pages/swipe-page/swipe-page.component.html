@@ -1,5 +1,12 @@
 <main class="container-fluid"  *ngIf="itinerarioActual">
   <div class="row mx-5 my-3 p-4 p-md-5 bg-white rounded shadow-lg g-5">
+    <div *ngIf="mostrarPopup" class="popup-overlay">
+  <div class="popup">
+    <h2>¡Te has quedado sin itinerarios!</h2>
+    <p>Para acceder a más itinerarios, mejora tu suscripción.</p>
+    <button (click)="cerrarPopup()">Cerrar</button>
+  </div>
+</div>
 
     <!-- Fila 1: Título e info del itinerario ocupando todo el ancho -->
     <div class="col-12">

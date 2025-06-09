@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './shared/header/header.component';
-import { SwipePageComponent } from './pages/swipe-page/swipe-page.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HeaderComponent, SwipePageComponent],
+  standalone: true,
+  imports: [RouterOutlet, HeaderComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })

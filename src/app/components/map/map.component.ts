@@ -1,4 +1,5 @@
-import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
+import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import 'leaflet/dist/images/marker-icon.png';
 import 'leaflet/dist/images/marker-shadow.png';
 import * as L from 'leaflet';
@@ -13,21 +14,23 @@ L.Icon.Default.mergeOptions({
 
 @Component({
   selector: 'app-map',
+  standalone: true,
+  imports: [CommonModule],
   template: `<div id="map" style="width: 100%; height: 500px;"></div>`
 })
-export class MapComponent implements OnChanges {
+export class MapComponent implements OnInit, OnChanges {
   @Input() actividadesPorDia: { nombre: string; duracion: string; lat: number; lng: number }[][] = [];
 
   private map!: L.Map;
   private markers: L.Marker[] = [];
 
   private emojiIcon = L.divIcon({
-  html: `<div style="font-size: 24px; line-height: 24px;">📍</div>`,
-  className: '',
-  iconSize: [24, 24],
-  iconAnchor: [12, 24],
-  popupAnchor: [0, -20]
-});
+    html: `<div style="font-size: 24px; line-height: 24px;">📍</div>`,
+    className: '',
+    iconSize: [24, 24],
+    iconAnchor: [12, 24],
+    popupAnchor: [0, -20]
+  });
 
   ngOnInit() {
     this.initMap();

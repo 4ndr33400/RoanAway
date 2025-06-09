@@ -1,0 +1,131 @@
+.favoritos-list {
+  align-items: center;
+  padding: 20px;
+  font-family: var(--font-text);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card {
+  background: white;
+  border-left: 5px solid var(--primary-color);
+  padding: 15px 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  width: 100%;
+  max-width: 1000px; 
+  position: relative;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.destino {
+  font-family: var(--font-titles);
+  font-weight: 700;
+  font-size: 1.9rem;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.info-principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ciudades-y-detalles {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.ciudades {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: var(--icon-color);
+}
+
+.detalles {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.extras {
+  display: flex;
+  gap: 15px;
+  font-size: 0.9rem;
+  color: var(--icon-color);
+  align-items: center;
+}
+
+.extras i {
+  margin-right: 5px;
+  color: var(--primary-color);
+}
+
+.card button {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none; /* para que no se pueda clicar si no se ve */
+}
+
+.card:hover button {
+  opacity: 1;
+  pointer-events: auto;
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.btn-fav {
+  white-space: nowrap;
+  padding: 4px 10px;
+  font-size: 0.85rem;
+}
+
+
+.btn-like{
+  font-family: var(--font-text);
+  font-weight: 600;
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  background-color: var(--main-bg);
+  color: var(--primary-color);
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+.btn-like:hover {
+  background-color: var(--primary-color);
+  color: white;
+  transform: scale(1.05);
+}
+.tag-principal {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+}
+.tag-principal-con-acciones {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.acciones-principal button {
+  font-size: 0.85rem;
+  padding: 4px 10px;
+  cursor: pointer;
+}

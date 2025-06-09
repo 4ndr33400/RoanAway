@@ -2,3 +2,28 @@ nav{
     font-family: var(--font-text);
     color: var(--icon-color);
 }
+nav.navbar {
+  min-height: 90px; /* asegúrate de que el logo quepa */
+}
+
+.btn-like{
+  font-family: var(--font-text);
+  font-weight: 600;
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  background-color: var(--main-bg);
+  color: var(--primary-color);
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+.btn-like:hover {
+  background-color: var(--primary-color);
+  color: white;
+  transform: scale(1.05);
+}
+.navbar-center-logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1; /* opcional, por si se solapa con algo */
+}

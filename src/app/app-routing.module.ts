@@ -1,15 +1,22 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './pages/home/home.component';
-import { SwipePageComponent } from './pages/swipe-page/swipe-page.component';
 
-const routes: Routes = [
-  { path: '', component: HomeComponent }, // ruta home
-  { path: 'swipe', component: SwipePageComponent } // ruta para swipe
+export const routes: Routes = [
+  { path: '', redirectTo: 'swipe', pathMatch: 'full' },
+  {
+    path: 'swipe',
+    loadComponent: () =>
+      import('./pages/swipe-page/swipe-page.component').then(m => m.SwipePageComponent)
+  },
+  {
+    path: 'favorites',
+    loadComponent: () =>
+      import('./pages/favorites/favorites.component').then(m => m.FavoritesComponent)
+  }
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

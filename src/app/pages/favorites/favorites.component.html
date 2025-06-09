@@ -1,0 +1,47 @@
+<h1>Mis Favoritos</h1>
+<div class="favoritos-list" *ngIf="favoritos.length > 0; else noFavs">
+
+  <div class="card" *ngFor="let fav of favoritos">
+
+
+    <div class="card-header">
+      <h2 class="destino">{{ fav.destino }}</h2>
+    <div *ngIf="fav.esPrincipal" class="tag-principal-con-acciones">
+
+      <div class="acciones-principal">
+        <button class="btn btn-outline-primary btn-sm me-2" (click)="editarItinerario(fav)">
+          <i class="fa-solid fa-pen"></i> Editar
+        </button>
+        <button class="btn btn-outline-secondary btn-sm" (click)="descargarItinerario(fav)">
+          <i class="fa-solid fa-download"></i> Descargar
+        </button>
+      </div>
+      <div class="tag-principal">
+        <i class="fa-solid fa-star"></i> PRINCIPAL
+      </div>
+    </div>
+      <!-- Solo mostrar el botón si NO es principal -->
+      <button *ngIf="!fav.esPrincipal" (click)="marcarComoPrincipal(fav)" class="btn btn-like btn-sm btn-fav">
+        Marcar como principal
+      </button>
+    </div>
+
+    <div class="info-principal">
+      <div class="ciudades-y-detalles">
+        <h3 class="ciudades">{{ fav.ciudades }}</h3>
+        <small class="detalles">
+          ({{ fav.dias }} días • {{ fav.presupuesto }} • {{ fav.tipo }})
+        </small>
+      </div>
+      <div class="extras">
+        <div><i class="bi bi-currency-pound"></i> {{ fav.moneda }}</div>
+        <div><i class="bi bi-translate"></i> {{ fav.idioma }}</div>
+        <div><i class="bi bi-sun"></i> {{ fav.epoca }}</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ng-template #noFavs>
+  <p>No tienes favoritos guardados</p>
+</ng-template>

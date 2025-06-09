@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -8,10 +8,8 @@ import { CommonModule } from '@angular/common';
   templateUrl: './timeline.component.html',
   styleUrls: ['./timeline.component.css']
 })
-export class TimelineComponent implements OnInit {
-  ngOnInit(): void {
-  }
-@Input() activitiesPerDay: { nombre: string; duracion: string }[][] = [];
+export class TimelineComponent {
+  @Input() activitiesPerDay: { nombre: string; duracion: string }[][] = [];
 
   selectedDay: number = 0;
 
