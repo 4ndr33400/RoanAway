@@ -4,6 +4,7 @@ import { TimelineComponent } from '../../components/timeline/timeline.component'
 import { MapComponent } from '../../components/map/map.component';
 import { ItinerariosService } from '../../services/itinerarios.service';
 import { ActivatedRoute } from '@angular/router';
+import { PdfService } from '../../services/pdf.service';
 
 @Component({
   selector: 'app-edit-page',
@@ -19,7 +20,8 @@ export class EditPageComponent implements OnInit {
 
   constructor(
     private itinerariosService: ItinerariosService,
-  private route: ActivatedRoute) {}
+  private route: ActivatedRoute,
+private pdfService: PdfService) {}
 
 ngOnInit() {
   const id = Number(this.route.snapshot.paramMap.get('id'));
@@ -65,6 +67,11 @@ const actividades = [...this.itinerario.actividades];
     ...this.itinerario,
     actividades
   };
+}
+descargarPdf() {
+  if (this.itinerario) {
+    this.pdfService.generarPDF(this.itinerario);
+  }
 }
 
 

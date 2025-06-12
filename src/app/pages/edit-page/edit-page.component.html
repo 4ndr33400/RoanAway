@@ -9,6 +9,11 @@
                     ({{ itinerario.dias }} días • {{ itinerario.presupuesto }} • {{ itinerario.tipo }})
                 </small>
             </div>
+<!-- antes: <button class="btn btn-primary mb-3" (click)="descargarPdf()">Descargar PDF</button> -->
+
+<div class="d-flex justify-content-end mb-3">
+  <button class="btn btn-like" (click)="descargarPdf()">Descargar PDF <i class="bi bi-download mx-2"></i></button>
+</div>
             <hr>
         </div>
 
