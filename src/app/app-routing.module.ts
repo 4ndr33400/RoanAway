@@ -12,7 +12,11 @@ export const routes: Routes = [
     path: 'favorites',
     loadComponent: () =>
       import('./pages/favorites/favorites.component').then(m => m.FavoritesComponent)
-  }
+  },
+  {
+  path: 'editar-itinerario/:id',
+  loadComponent: () => import('./pages/edit-page/edit-page.component').then(m => m.EditPageComponent)
+}
 ];
 
 @NgModule({

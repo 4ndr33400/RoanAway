@@ -127,6 +127,56 @@
           "lng": 139.6503
         }
       ]
+    ],
+    "recomendaciones": [
+      {
+        "nombre": "Visitar el Castillo de Osaka",
+        "duracion": "2h",
+        "lat": 34.6873,
+        "lng": 135.5262
+      },
+      {
+        "nombre": "Paseo por el barrio de Shinjuku",
+        "duracion": "3h",
+        "lat": 35.6938,
+        "lng": 139.7034
+      },
+      {
+        "nombre": "Jardines del Palacio Imperial",
+        "duracion": "1.5h",
+        "lat": 35.6852,
+        "lng": 139.7528
+      },
+      {
+        "nombre": "Visitar el Mercado de pescado de Tsukiji",
+        "duracion": "2h",
+        "lat": 35.6655,
+        "lng": 139.7707
+      },
+      {
+        "nombre": "Templo Senso-ji en Asakusa",
+        "duracion": "1.5h",
+        "lat": 35.7148,
+        "lng": 139.7967
+      },
+      {
+        "nombre": "Paseo por el distrito de Ginza",
+        "duracion": "2h",
+        "lat": 35.6719,
+        "lng": 139.7644
+      },
+      {
+        "nombre": "Excursión a Nikko",
+        "duracion": "día completo",
+        "lat": 36.7281,
+        "lng": 139.5993
+      },
+      {
+        "nombre": "Visitar el Museo Ghibli",
+        "duracion": "3h",
+        "lat": 35.6961,
+        "lng": 139.5795
+      }
     ]
   },
   {
@@ -244,6 +294,56 @@
           "lng": -73.7781
         }
       ]
+    ],
+    "recomendaciones": [
+      {
+        "nombre": "Subir al Empire State Building",
+        "duracion": "2h",
+        "lat": 40.7484,
+        "lng": -73.9857
+      },
+      {
+        "nombre": "Paseo por Central Park",
+        "duracion": "3h",
+        "lat": 40.7851,
+        "lng": -73.9683
+      },
+      {
+        "nombre": "Visitar el Museo Metropolitano de Arte",
+        "duracion": "3h",
+        "lat": 40.7794,
+        "lng": -73.9632
+      },
+      {
+        "nombre": "Recorrer Times Square",
+        "duracion": "1.5h",
+        "lat": 40.758,
+        "lng": -73.9855
+      },
+      {
+        "nombre": "Ferry a la Estatua de la Libertad",
+        "duracion": "4h",
+        "lat": 40.6892,
+        "lng": -74.0445
+      },
+      {
+        "nombre": "Visitar el Memorial y Museo del 11-S",
+        "duracion": "2h",
+        "lat": 40.7115,
+        "lng": -74.0134
+      },
+      {
+        "nombre": "Explorar el barrio de Brooklyn",
+        "duracion": "3h",
+        "lat": 40.6782,
+        "lng": -73.9442
+      },
+      {
+        "nombre": "Paseo por la High Line",
+        "duracion": "1.5h",
+        "lat": 40.7479,
+        "lng": -74.0049
+      }
     ]
   },
   {
@@ -375,6 +475,56 @@
           "lng": 11.2059
         }
       ]
+    ],
+    "recomendaciones": [
+      {
+        "nombre": "Visitar el Coliseo en Roma",
+        "duracion": "2h",
+        "lat": 41.8902,
+        "lng": 12.4922
+      },
+      {
+        "nombre": "Paseo por la Plaza de San Marcos en Venecia",
+        "duracion": "2h",
+        "lat": 45.434,
+        "lng": 12.338
+      },
+      {
+        "nombre": "Tour por la Toscana y sus viñedos",
+        "duracion": "día completo",
+        "lat": 43.7711,
+        "lng": 11.2486
+      },
+      {
+        "nombre": "Explorar la Catedral de Florencia",
+        "duracion": "1.5h",
+        "lat": 43.7731,
+        "lng": 11.256
+      },
+      {
+        "nombre": "Visitar la Torre de Pisa",
+        "duracion": "1h",
+        "lat": 43.723,
+        "lng": 10.3966
+      },
+      {
+        "nombre": "Recorrer la Costa Amalfitana",
+        "duracion": "día completo",
+        "lat": 40.6333,
+        "lng": 14.6021
+      },
+      {
+        "nombre": "Paseo por el barrio Trastevere en Roma",
+        "duracion": "2h",
+        "lat": 41.8895,
+        "lng": 12.4663
+      },
+      {
+        "nombre": "Visitar los Museos Vaticanos",
+        "duracion": "3h",
+        "lat": 41.9065,
+        "lng": 12.4536
+      }
     ]
   },
   {
@@ -500,6 +650,56 @@
           "lng": 100.7501
         }
       ]
+    ],
+    "recomendaciones": [
+      {
+        "nombre": "Visitar el Gran Palacio en Bangkok",
+        "duracion": "2h",
+        "lat": 13.750,
+        "lng": 100.4913
+      },
+      {
+        "nombre": "Paseo por el mercado flotante Damnoen Saduak",
+        "duracion": "3h",
+        "lat": 13.4986,
+        "lng": 99.9566
+      },
+      {
+        "nombre": "Relajarse en las playas de Phuket",
+        "duracion": "día completo",
+        "lat": 7.8804,
+        "lng": 98.3923
+      },
+      {
+        "nombre": "Explorar el templo Wat Pho",
+        "duracion": "1.5h",
+        "lat": 13.7461,
+        "lng": 100.492
+      },
+      {
+        "nombre": "Excursión a Ayutthaya",
+        "duracion": "día completo",
+        "lat": 14.3557,
+        "lng": 100.5681
+      },
+      {
+        "nombre": "Paseo nocturno por Khao San Road",
+        "duracion": "2h",
+        "lat": 13.759,
+        "lng": 100.497
+      },
+      {
+        "nombre": "Visitar el Parque Nacional Khao Sok",
+        "duracion": "día completo",
+        "lat": 8.918,
+        "lng": 98.531
+      },
+      {
+        "nombre": "Tour gastronómico en Chiang Mai",
+        "duracion": "3h",
+        "lat": 18.7883,
+        "lng": 98.9853
+      }
     ]
   },
   {
@@ -605,6 +805,56 @@
           "lng": -79.3470
         }
       ]
+    ],
+    "recomendaciones": [
+      {
+        "nombre": "Visitar las Cataratas del Niágara",
+        "duracion": "día completo",
+        "lat": 43.0896,
+        "lng": -79.0849
+      },
+      {
+        "nombre": "Paseo por el Parque Nacional Banff",
+        "duracion": "día completo",
+        "lat": 51.4968,
+        "lng": -115.9281
+      },
+      {
+        "nombre": "Explorar el Viejo Montreal",
+        "duracion": "2h",
+        "lat": 45.5089,
+        "lng": -73.554
+      },
+      {
+        "nombre": "Subir a la Torre CN en Toronto",
+        "duracion": "2h",
+        "lat": 43.6426,
+        "lng": -79.3871
+      },
+      {
+        "nombre": "Recorrer Gastown en Vancouver",
+        "duracion": "2h",
+        "lat": 49.2832,
+        "lng": -123.109
+      },
+      {
+        "nombre": "Visitar el Museo Real de Ontario",
+        "duracion": "3h",
+        "lat": 43.6677,
+        "lng": -79.3948
+      },
+      {
+        "nombre": "Excursión al Parque Nacional Jasper",
+        "duracion": "día completo",
+        "lat": 52.8734,
+        "lng": -117.9543
+      },
+      {
+        "nombre": "Paseo por el Parlamento en Ottawa",
+        "duracion": "1.5h",
+        "lat": 45.4235,
+        "lng": -75.7009
+      }
     ]
   },
   {
@@ -704,6 +954,56 @@
           "lng": -66.9300
         }
       ]
+    ],
+    "recomendaciones": [
+      {
+        "nombre": "Visitar el Salto Ángel",
+        "duracion": "día completo",
+        "lat": 5.967,
+        "lng": -62.536
+      },
+      {
+        "nombre": "Recorrer el Parque Nacional Canaima",
+        "duracion": "día completo",
+        "lat": 6.2,
+        "lng": -62.6
+      },
+      {
+        "nombre": "Paseo por la Plaza Bolívar de Caracas",
+        "duracion": "1h",
+        "lat": 10.488,
+        "lng": -66.879
+      },
+      {
+        "nombre": "Relajarse en las playas de Morrocoy",
+        "duracion": "día completo",
+        "lat": 10.8,
+        "lng": -68.3
+      },
+      {
+        "nombre": "Visitar el Teleférico de Mérida",
+        "duracion": "3h",
+        "lat": 8.598,
+        "lng": -71.148
+      },
+      {
+        "nombre": "Explorar el casco histórico de Coro",
+        "duracion": "2h",
+        "lat": 11.42,
+        "lng": -69.67
+      },
+      {
+        "nombre": "Recorrido por el Páramo de Mucuchíes",
+        "duracion": "4h",
+        "lat": 8.76,
+        "lng": -71.13
+      },
+      {
+        "nombre": "Tour gastronómico en La Candelaria",
+        "duracion": "2h",
+        "lat": 10.488,
+        "lng": -66.879
+      }
     ]
   },
   {
@@ -787,6 +1087,56 @@
           "lng": 178.4419
         }
       ]
+    ],
+    "recomendaciones": [
+      {
+        "nombre": "Snorkel en la Isla de Taveuni",
+        "duracion": "día completo",
+        "lat": -16.8333,
+        "lng": 179.8667
+      },
+      {
+        "nombre": "Relajarse en la playa de Natadola",
+        "duracion": "3h",
+        "lat": -18.1049,
+        "lng": 177.7661
+      },
+      {
+        "nombre": "Visitar las Cataratas Bouma",
+        "duracion": "2h",
+        "lat": -18.1593,
+        "lng": 178.3349
+      },
+      {
+        "nombre": "Paseo por el Mercado de Suva",
+        "duracion": "1.5h",
+        "lat": -18.1416,
+        "lng": 178.4411
+      },
+      {
+        "nombre": "Tour cultural en el Pueblo de Navala",
+        "duracion": "3h",
+        "lat": -17.6794,
+        "lng": 177.6262
+      },
+      {
+        "nombre": "Excursión a la Isla de Somosomo",
+        "duracion": "día completo",
+        "lat": -16.785,
+        "lng": 179.943
+      },
+      {
+        "nombre": "Buceo en la Reserva Marino de Bligh",
+        "duracion": "día completo",
+        "lat": -17.7167,
+        "lng": 177.1923
+      },
+      {
+        "nombre": "Caminata en el Parque Nacional Bouma",
+        "duracion": "3h",
+        "lat": -18.1183,
+        "lng": 178.3278
+      }
     ]
   },
   {
@@ -874,6 +1224,56 @@
           "lng": 151.2093
         }
       ]
+    ],
+    "recomendaciones": [
+      {
+        "nombre": "Visitar la Ópera de Sídney",
+        "duracion": "2h",
+        "lat": -33.8568,
+        "lng": 151.2153
+      },
+      {
+        "nombre": "Explorar la Gran Barrera de Coral",
+        "duracion": "día completo",
+        "lat": -18.2871,
+        "lng": 147.6992
+      },
+      {
+        "nombre": "Paseo por el barrio de Melbourne",
+        "duracion": "3h",
+        "lat": -37.8136,
+        "lng": 144.9631
+      },
+      {
+        "nombre": "Excursión al Parque Nacional de los Doce Apóstoles",
+        "duracion": "4h",
+        "lat": -38.6659,
+        "lng": 143.1043
+      },
+      {
+        "nombre": "Visitar el zoológico de Taronga",
+        "duracion": "3h",
+        "lat": -33.8436,
+        "lng": 151.2412
+      },
+      {
+        "nombre": "Relajarse en Bondi Beach",
+        "duracion": "2h",
+        "lat": -33.8908,
+        "lng": 151.2743
+      },
+      {
+        "nombre": "Tour por los viñedos de Barossa Valley",
+        "duracion": "día completo",
+        "lat": -34.5326,
+        "lng": 138.9678
+      },
+      {
+        "nombre": "Recorrer el Parque Nacional Kakadu",
+        "duracion": "día completo",
+        "lat": -12.753,
+        "lng": 132.818
+      }
     ]
   },
   {
@@ -957,6 +1357,56 @@
           "lng": -43.1729
         }
       ]
+    ],
+    "recomendaciones": [
+      {
+        "nombre": "Subir al Cristo Redentor",
+        "duracion": "2h",
+        "lat": -22.9519,
+        "lng": -43.2105
+      },
+      {
+        "nombre": "Explorar el barrio de Santa Teresa",
+        "duracion": "3h",
+        "lat": -22.911,
+        "lng": -43.188
+      },
+      {
+        "nombre": "Paseo por la playa de Copacabana",
+        "duracion": "2h",
+        "lat": -22.9711,
+        "lng": -43.1822
+      },
+      {
+        "nombre": "Visitar las Cataratas del Iguazú",
+        "duracion": "día completo",
+        "lat": -25.6953,
+        "lng": -54.4367
+      },
+      {
+        "nombre": "Tour gastronómico en Sao Paulo",
+        "duracion": "3h",
+        "lat": -23.5505,
+        "lng": -46.6333
+      },
+      {
+        "nombre": "Paseo por el Parque Ibirapuera",
+        "duracion": "2h",
+        "lat": -23.5874,
+        "lng": -46.6576
+      },
+      {
+        "nombre": "Visitar el Museo de Arte de Sao Paulo",
+        "duracion": "2h",
+        "lat": -23.5614,
+        "lng": -46.6559
+      },
+      {
+        "nombre": "Descubrir la Isla de Fernando de Noronha",
+        "duracion": "día completo",
+        "lat": -3.8549,
+        "lng": -32.4278
+      }
     ]
   },
   {
@@ -1044,6 +1494,56 @@
           "lng": -58.3816
         }
       ]
+    ],
+    "recomendaciones": [
+      {
+        "nombre": "Visitar la Casa Rosada en Buenos Aires",
+        "duracion": "1.5h",
+        "lat": -34.6083,
+        "lng": -58.3712
+      },
+      {
+        "nombre": "Paseo por el barrio de La Boca",
+        "duracion": "2h",
+        "lat": -34.6351,
+        "lng": -58.3638
+      },
+      {
+        "nombre": "Excursión a las Cataratas del Iguazú",
+        "duracion": "día completo",
+        "lat": -25.6953,
+        "lng": -54.4367
+      },
+      {
+        "nombre": "Tour por los viñedos de Mendoza",
+        "duracion": "día completo",
+        "lat": -32.8908,
+        "lng": -68.8272
+      },
+      {
+        "nombre": "Visitar el Glaciar Perito Moreno",
+        "duracion": "día completo",
+        "lat": -50.4961,
+        "lng": -73.1370
+      },
+      {
+        "nombre": "Paseo por Puerto Madero",
+        "duracion": "2h",
+        "lat": -34.609,
+        "lng": -58.365
+      },
+      {
+        "nombre": "Recorrer el Teatro Colón",
+        "duracion": "1.5h",
+        "lat": -34.6015,
+        "lng": -58.3838
+      },
+      {
+        "nombre": "Visitar el Cementerio de la Recoleta",
+        "duracion": "1h",
+        "lat": -34.5883,
+        "lng": -58.3953
+      }
     ]
   }
 ]

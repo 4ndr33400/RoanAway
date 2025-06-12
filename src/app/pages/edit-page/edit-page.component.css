@@ -1,0 +1,90 @@
+.recomendaciones-card {
+  border: 1px solid var(--icon-color);
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 0;
+  font-family: var(--font-text);
+  transition: box-shadow 0.3s ease;
+}
+.recomendaciones-container {
+  max-width: 600px;
+margin-left: 100px;
+
+}
+.list-group-flush {
+  max-height: 300px;  /* altura ajustada menos el header */
+  overflow-y: auto;
+}
+
+
+.recomendaciones-card:hover {
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.recomendaciones-card .card-header {
+  background-color: #4d136177;
+  border-bottom: 1px solid var(--icon-color);
+  font-family: var(--font-titles);
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.recomendaciones-card .list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-text);
+  font-size: 1rem;
+  border: none;
+  border-top: 1px solid #eee;
+  padding: 12px 16px;
+}
+
+.recomendaciones-card .list-group-item:first-child {
+  border-top: none;
+}
+
+.recomendaciones-card strong {
+  color: #333;
+  font-weight: 600;
+}
+
+.recomendaciones-card small {
+  color: var(--icon-color);
+  font-size: 0.8rem;
+}
+
+.btn-add {
+  border: 2px solid #4E1361;
+  background-color: transparent;
+  color: #4E1361;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.btn-add:hover {
+  background-color: #4E1361;
+  color: #fff;
+}
+.vertical-divider {
+  width: 1px;
+  background-color: var(--icon-color);
+  height: 400px;
+  border-radius: 10px;
+  align-self: center; /* para que quede centrado verticalmente */
+}
+.edit-page-container .actividades-container {
+  height: 400px;        /* o la altura que quieras */
+  overflow-y: auto;
+}
+
+

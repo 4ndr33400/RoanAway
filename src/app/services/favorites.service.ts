@@ -14,15 +14,19 @@ export class FavoritesService {
     return favs ? JSON.parse(favs) : [];
   }
 
-  añadirFavorito(itinerario: any) {
-    const favs = this.getFavoritos();
-    // Evitar duplicados
-    if (!favs.find((f: any) => f.id === itinerario.id)) {
-      favs.push(itinerario);
-      localStorage.setItem(this.storageKey, JSON.stringify(favs));
-      console.log('Añadiendo favorito:', itinerario);
-    }
+añadirFavorito(itinerario: any) {
+  const favs = this.getFavoritos();
+
+  if (!favs.find((f: any) => f.id === itinerario.id)) {
+    const conActividades = {
+      ...itinerario,
+      actividadesPorDia: itinerario.actividadesPorDia || [[]]
+    };
+    favs.push(conActividades);
+    localStorage.setItem(this.storageKey, JSON.stringify(favs));
   }
+}
+
 
   quitarFavorito(id: number) {
     let favs = this.getFavoritos();

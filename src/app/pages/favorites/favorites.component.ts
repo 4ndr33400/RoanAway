@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FavoritesService } from '../../services/favorites.service';
+import { Router, RouterModule } from '@angular/router';
 
 interface Itinerario {
   id: number;
@@ -14,7 +15,7 @@ interface Itinerario {
 @Component({
   selector: 'app-favorites',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterModule],
   templateUrl: './favorites.component.html',
   styleUrls: ['./favorites.component.css']
 })

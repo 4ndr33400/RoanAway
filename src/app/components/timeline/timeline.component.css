@@ -96,3 +96,25 @@
   align-items: center;
   font-size: 11px;
 }
+.btn-trash {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  color: #b00; /* rojo suave */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s ease;
+}
+
+.btn-trash:hover {
+  color: #e00; /* rojo más vivo al pasar */
+}
+
+.btn-trash svg {
+  width: 20px;
+  height: 20px;
+}

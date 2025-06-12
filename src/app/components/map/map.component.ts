@@ -19,7 +19,8 @@ L.Icon.Default.mergeOptions({
   template: `<div id="map" style="width: 100%; height: 500px;"></div>`
 })
 export class MapComponent implements OnInit, OnChanges {
-  @Input() actividadesPorDia: { nombre: string; duracion: string; lat: number; lng: number }[][] = [];
+@Input() actividadesPorDia?: { nombre: string; duracion: string; lat: number; lng: number }[][];
+@Input() actividadesDelDia?: { nombre: string; duracion: string; lat: number; lng: number }[];
 
   private map!: L.Map;
   private markers: L.Marker[] = [];
@@ -36,17 +37,19 @@ export class MapComponent implements OnInit, OnChanges {
     this.initMap();
   }
 
-  ngOnChanges(changes: SimpleChanges) {
-    if (changes['actividadesPorDia']) {
-      if (this.map) {
-        this.updateMarkers();
-      } else {
-        setTimeout(() => {
-          if (this.map) this.updateMarkers();
-        }, 100);
-      }
+ngOnChanges(changes: SimpleChanges) {
+  if (changes['actividadesPorDia'] || changes['actividadesDelDia']) {
+    if (this.map) {
+      this.updateMarkers();
+    } else {
+      setTimeout(() => {
+        if (this.map) this.updateMarkers();
+      }, 100);
     }
   }
+}
+
+
 
   initMap() {
     this.map = L.map('map').setView([20, 0], 2);
@@ -57,22 +60,27 @@ export class MapComponent implements OnInit, OnChanges {
   }
 
   updateMarkers() {
-    this.markers.forEach(marker => this.map.removeLayer(marker));
-    this.markers = [];
+  this.markers.forEach(marker => this.map.removeLayer(marker));
+  this.markers = [];
 
-    this.actividadesPorDia.forEach(dia => {
-      dia.forEach(act => {
-        if (act.lat && act.lng) {
-          const marker = L.marker([act.lat, act.lng], { icon: this.emojiIcon }).addTo(this.map);
-          marker.bindPopup(`<b>${act.nombre}</b><br>Duración: ${act.duracion}`);
-          this.markers.push(marker);
-        }
-      });
+  const actividades = this.actividadesDelDia
+    ? [this.actividadesDelDia]
+    : (this.actividadesPorDia || []);
+
+  actividades.forEach(dia => {
+    dia.forEach(act => {
+      if (act.lat && act.lng) {
+        const marker = L.marker([act.lat, act.lng], { icon: this.emojiIcon }).addTo(this.map);
+        marker.bindPopup(`<b>${act.nombre}</b><br>Duración: ${act.duracion}`);
+        this.markers.push(marker);
+      }
     });
+  });
 
-    if (this.markers.length) {
-      const group = L.featureGroup(this.markers);
-      this.map.fitBounds(group.getBounds().pad(0.5));
-    }
+  if (this.markers.length) {
+    const group = L.featureGroup(this.markers);
+    this.map.fitBounds(group.getBounds().pad(0.5));
   }
+}
+
 }
