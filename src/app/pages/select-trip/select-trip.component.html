@@ -1,0 +1,37 @@
+<div class="favoritos-list select-trip-list" *ngIf="viajes.length > 0; else noViajes">
+
+  <div class="card select-trip-card" *ngFor="let viaje of viajes">
+
+    <div class="card-header select-trip-header">
+      <div class="select-trip-info-wrap">
+        <h2 class="destino select-trip-title">{{ viaje.nombre }}</h2>
+        <p class="descripcion-viaje">
+          {{ viaje.descripcion || 'Sin descripción añadida aún.' }}
+        </p>
+      </div>
+      <button class="btn btn-like btn-sm btn-fav select-trip-btn" routerLink="/swipe">
+        Ver itinerarios
+      </button>
+    </div>
+
+    <div class="info-principal select-trip-info">
+            <div class="viaje-meta">
+          <small><i class="fa-regular fa-calendar"></i> {{viaje.fechaCreacion | date:'dd/MM/yyyy'}}</small>
+          <small><i class="fa-solid fa-list-ul"></i> 10 itinerarios disponibles</small>
+        </div>
+      <div class="ciudades-y-detalles select-trip-details">
+        <small class="detalles select-trip-subtitle">
+          ({{ viaje.preferencias.dias }} días • {{ viaje.preferencias.presupuesto }} • {{ viaje.preferencias.tipo }})
+        </small>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ng-template #noViajes>
+  <div class="no-favs select-trip-no-viajes">
+    <i class="fa-regular fa-map fa-2xl" style="color: var(--primary-color); margin-bottom: 20px;"></i>
+    <h1 class="h5">¡Aún no has creado ningún viaje!</h1>
+    <small>Crea un viaje para empezar a generar itinerarios.</small>
+  </div>
+</ng-template>

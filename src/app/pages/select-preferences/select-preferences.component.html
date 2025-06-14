@@ -1,0 +1,53 @@
+<div class="d-flex flex-column justify-content-center align-items-center" style="min-height: 100vh;">
+  <!-- Logo -->
+  <img src="assets/img/RoanAwayNewLogoPNG.png" alt="Roan Away Logo" height="120" class="mb-5">
+
+  <!-- Container -->
+  <div class="container py-4 px-5 shadow rounded"
+    style="max-width: 700px; background-color: #fff; border: 1px rgba(224, 235, 251, 0.3) solid; border-radius: 20px; font-family: var(--font-text);">
+      <!-- Título -->
+  <h2 class="text-center mb-5 fw-semibold" style="font-family: var(--font-titles); color: var(--primary-color);">
+    Selecciona tus preferencias
+  </h2>
+
+    <!-- Fechas -->
+    <div class="mb-4 mt-4 mx-auto" style="max-width: 550px;">
+      <label class="form-label h5" style="font-family: var(--font-titles); color: var(--primary-color);">¿Plan rápido o viaje sin prisas?</label>
+      <div class="d-flex gap-3">
+        <input type="date" class="form-control" placeholder="Cuando empieza">
+        <input type="date" class="form-control" placeholder="Cuando termina">
+      </div>
+    </div>
+
+    <!-- Tipo de viaje -->
+    <div class="mb-4 mx-auto" style="max-width: 550px;">
+      <label class="form-label h5" style="font-family: var(--font-titles); color: var(--primary-color);">¿Viaje tranquilo o adrenalina a tope?</label>
+      <select class="form-select">
+        <option selected disabled>Escoge el tipo de viaje deseado</option>
+        <option>Gastronómico</option>
+        <option>Aventurero</option>
+        <option>Cultural</option>
+        <option>Mochilero</option>
+      </select>
+    </div>
+
+    <!-- Presupuesto -->
+    <div class="mb-4 mx-auto" style="max-width: 550px;">
+      <label class="form-label h5" style="font-family: var(--font-titles); color: var(--primary-color);">¿Cuánto te quieres gastar sin llorar?</label>
+      <select class="form-select">
+        <option selected disabled>Escoge un presupuesto</option>
+        <option>Económico</option>
+        <option>Estándar</option>
+        <option>Premium</option>
+      </select>
+    </div>
+
+    <!-- Botón -->
+    <div class="text-center mt-4">
+      <button class="btn btn-primary comenzar-btn" (click)="irAViajes()">
+        Comenzar <i class="fa-solid fa-arrow-right ms-2"></i>
+      </button>
+    </div>
+    
+  </div>
+</div>

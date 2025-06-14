@@ -1,0 +1,63 @@
+.container {
+    background-color: #fff;
+    border: 1px rgba(224, 235, 251, 0.3) solid;
+    border-radius: 20px;
+    font-family: var(--font-titles);
+}
+.fuente {
+    font-family: var(--font-titles);
+}
+
+/* Input redondeado */
+.custom-input {
+  border-radius: 30px;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  flex: 1;
+}
+
+.shadow-custom {
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Contenedor del input + botón */
+.custom-input-wrapper {
+  gap: 8px;
+}
+
+/* Botón circular con icono dentro */
+.arrow-btn {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #3D1638;
+  border: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.arrow-btn:hover {
+  background-color: #6b2a61;
+}
+
+.arrow-btn i {
+  font-size: 1.2rem;
+}
+.comenzar-btn {
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  background-color: var(--primary-color);
+  border: none;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.comenzar-btn:hover {
+  background-color: var(--icon-hover); /* un poco más oscuro */
+}
+

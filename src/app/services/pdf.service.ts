@@ -8,7 +8,7 @@ import { Itinerario } from './itinerarios.service';
 })
 export class PdfService {
 
-  constructor() {}
+  constructor() { }
 
   generarPDF(itinerario: any) {
     const doc = new jsPDF();
@@ -33,29 +33,29 @@ export class PdfService {
 
       // País (destino)
       doc.setFontSize(20);
-      doc.setTextColor(61, 22, 56); 
-      doc.setFont('helvetica', 'bold');
+      doc.setTextColor(61, 22, 56);
+      doc.setFont('Quicksand', 'bold');
       doc.text(itinerario.destino, 10, y);
       y += 10;
 
       // Ciudades (más pequeñas que el país, más grandes que el resumen)
       doc.setFontSize(14);
       doc.setTextColor(61, 22, 56);
-      doc.setFont('helvetica', 'normal');
+      doc.setFont('Quicksand', 'normal');
       doc.text(itinerario.ciudades, 10, y);
       y += 8;
 
       // Después de doc.text(itinerario.ciudades, x, y);
-const lineY = y + 2; // un poco abajo de las ciudades
-doc.setDrawColor(61, 22, 56); // color de la línea, por ejemplo igual que el país
-doc.setLineWidth(0.1); // grosor de la línea
-doc.line(10, lineY, doc.internal.pageSize.getWidth() - 10, lineY); // línea horizontal de margen a margen
+      const lineY = y + 2; // un poco abajo de las ciudades
+      doc.setDrawColor(61, 22, 56); // color de la línea, por ejemplo igual que el país
+      doc.setLineWidth(0.1); // grosor de la línea
+      doc.line(10, lineY, doc.internal.pageSize.getWidth() - 10, lineY); // línea horizontal de margen a margen
 
 
       // Info corta debajo del país
       doc.setFontSize(10);
       doc.setTextColor(61, 22, 56);
-      doc.setFont('helvetica', 'normal');
+      doc.setFont('Nunito', 'normal');
       const resumen = `${itinerario.dias} días • ${itinerario.presupuesto} • ${itinerario.tipo}`;
       doc.text(resumen, 10, y);
       y += 8;
@@ -75,7 +75,7 @@ doc.line(10, lineY, doc.internal.pageSize.getWidth() - 10, lineY); // línea hor
         doc.setTextColor(0);
         doc.setFontSize(13);
         doc.setTextColor(61, 22, 56);
-        doc.setFont('helvetica', 'bold');
+        doc.setFont('Nunito', 'bold');
         doc.text(`Día ${i + 1}`, 10, finalY);
         finalY += 6;
 

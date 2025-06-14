@@ -1,0 +1,126 @@
+.favoritos-list {
+  align-items: center;
+  padding: 20px;
+  font-family: var(--font-text);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card {
+  background: white;
+  border-left: 5px solid var(--primary-color);
+  padding: 15px 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  width: 100%;
+  max-width: 1500px; 
+  position: relative;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.destino {
+  font-family: var(--font-titles);
+  font-weight: 700;
+  font-size: 1.9rem;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.info-principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ciudades-y-detalles {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.ciudades {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: var(--icon-color);
+}
+
+.detalles {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.extras {
+  display: flex;
+  gap: 15px;
+  font-size: 0.9rem;
+  color: var(--icon-color);
+  align-items: center;
+}
+
+.extras i {
+  margin-right: 5px;
+  color: var(--primary-color);
+}
+
+.btn-fav {
+  white-space: nowrap;
+  padding: 4px 10px;
+  font-size: 0.85rem;
+  font-family: var(--font-text);
+  font-weight: 600;
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  background-color: var(--main-bg);
+  color: var(--primary-color);
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-fav:hover {
+  background-color: var(--primary-color);
+  color: white;
+  transform: scale(1.05);
+}
+
+.no-favs {
+  text-align: center;
+  color: var(--primary-color);
+  font-family: var(--font-text);
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.descripcion-viaje {
+  font-size: 0.95rem;
+  margin: 10px 0;
+  color: #555;
+  font-style: italic;
+}
+.viaje-meta {
+  margin-top: 6px;
+  display: flex;
+  gap: 15px;
+  color: #555;
+  font-size: 0.9rem;
+  font-style: normal;
+}
+
+.viaje-meta i {
+  margin-right: 6px;
+  color: var(--primary-color);
+}
+

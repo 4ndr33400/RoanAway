@@ -9,8 +9,8 @@
     "destino": "Japón",
     "ciudades": "Kioto, Tokyo",
     "dias": 7,
-    "presupuesto": "Intermedio",
-    "tipo": "Aventura",
+    "presupuesto": "Estandar",
+    "tipo": "Cultural",
     "moneda": "WON",
     "idioma": "Japonés",
     "epoca": "Primavera",
@@ -188,8 +188,8 @@
     "destino": "Estados Unidos",
     "ciudades": "Nueva York",
     "dias": 5,
-    "presupuesto": "Premium",
-    "tipo": "Urbano",
+    "presupuesto": "Estandar",
+    "tipo": "Cultural",
     "moneda": "USD",
     "idioma": "Inglés",
     "epoca": "Otoño",
@@ -355,7 +355,7 @@
     "destino": "Italia",
     "ciudades": "Roma, Florencia",
     "dias": 6,
-    "presupuesto": "Intermedio",
+    "presupuesto": "Estandar",
     "tipo": "Cultural",
     "moneda": "EUR",
     "idioma": "Italiano",
@@ -536,8 +536,8 @@
     "destino": "Tailandia",
     "ciudades": "Bangkok, Chiang Mai",
     "dias": 6,
-    "presupuesto": "Económico",
-    "tipo": "Exótico",
+    "presupuesto": "Estandar",
+    "tipo": "Cultural",
     "moneda": "THB",
     "idioma": "Tailandés",
     "epoca": "Invierno",
@@ -711,8 +711,8 @@
     "destino": "Canadá",
     "ciudades": "Toronto, Cataratas del Niágara",
     "dias": 5,
-    "presupuesto": "Alto",
-    "tipo": "Naturaleza",
+    "presupuesto": "Estandar",
+    "tipo": "Cultural",
     "moneda": "CAD",
     "idioma": "Inglés / Francés",
     "epoca": "Verano",
@@ -857,104 +857,182 @@
       }
     ]
   },
-  {
-    "id": 6,
-    "titulo": "Cultura y costa venezolana",
-    "descripcion": "Explora Caracas y relájate en las playas de La Guaira.",
-    "favorito": false,
-    "pais": "Venezuela",
-    "destino": "Venezuela",
-    "ciudades": "Caracas, La Guaira",
-    "dias": 5,
-    "presupuesto": "Bajo",
-    "tipo": "Cultura y Playa",
-    "moneda": "VES",
-    "idioma": "Español",
-    "epoca": "Invierno",
-    "actividades": [
-      [
-        {
-          "nombre": "Llegada a La Guaira",
-          "duracion": "1h",
-          "lat": 10.6000,
-          "lng": -66.9300
-        },
-        {
-          "nombre": "Check-in hotel",
-          "duracion": "0.5h",
-          "lat": 10.6000,
-          "lng": -66.9300
-        },
-        {
-          "nombre": "Visita al Malecón de La Guaira",
-          "duracion": "2h",
-          "lat": 10.5972,
-          "lng": -66.9286
-        },
-        {
-          "nombre": "Cena en restaurante local",
-          "duracion": "1.5h",
-          "lat": 10.6000,
-          "lng": -66.9300
-        }
-      ],
-      [
-        {
-          "nombre": "Excursión a Playa Caribe",
-          "duracion": "4h",
-          "lat": 10.5910,
-          "lng": -66.9180
-        },
-        {
-          "nombre": "Almuerzo en Playa Caribe",
-          "duracion": "1h",
-          "lat": 10.5910,
-          "lng": -66.9180
-        }
-      ],
-      [
-        {
-          "nombre": "Visita a Caracas: Parque Central",
-          "duracion": "3h",
-          "lat": 10.4925,
-          "lng": -66.8809
-        },
-        {
-          "nombre": "Museo de Arte Contemporáneo",
-          "duracion": "2h",
-          "lat": 10.4885,
-          "lng": -66.8996
-        }
-      ],
-      [
-        {
-          "nombre": "Tour histórico por La Guaira",
-          "duracion": "3h",
-          "lat": 10.5965,
-          "lng": -66.9270
-        },
-        {
-          "nombre": "Tarde libre",
-          "duracion": "Resto del día",
-          "lat": 10.6000,
-          "lng": -66.9300
-        }
-      ],
-      [
-        {
-          "nombre": "Desayuno tranquilo",
-          "duracion": "1h",
-          "lat": 10.6000,
-          "lng": -66.9300
-        },
-        {
-          "nombre": "Salida y despedida",
-          "duracion": "1h",
-          "lat": 10.6000,
-          "lng": -66.9300
-        }
-      ]
+{
+  "id": 6,
+  "titulo": "Cultura y costa venezolana",
+  "descripcion": "Explora Caracas y relájate en las playas de La Guaira.",
+  "favorito": false,
+  "pais": "Venezuela",
+  "destino": "Venezuela",
+  "ciudades": "Caracas, La Guaira",
+  "dias": 5,
+  "presupuesto": "Estandar",
+  "tipo": "Cultural",
+  "moneda": "VES",
+  "idioma": "Español",
+  "epoca": "Invierno",
+  "actividades": [
+    [
+      {
+        "nombre": "Llegada a La Guaira",
+        "duracion": "1h",
+        "lat": 10.6000,
+        "lng": -66.9300
+      },
+      {
+        "nombre": "Check-in hotel",
+        "duracion": "0.5h",
+        "lat": 10.6000,
+        "lng": -66.9300
+      },
+      {
+        "nombre": "Visita al Malecón de La Guaira",
+        "duracion": "2h",
+        "lat": 10.5972,
+        "lng": -66.9286
+      },
+      {
+        "nombre": "Paseo por el casco colonial de La Guaira",
+        "duracion": "1.5h",
+        "lat": 10.5968,
+        "lng": -66.9269
+      },
+      {
+        "nombre": "Cena en restaurante local",
+        "duracion": "1.5h",
+        "lat": 10.6000,
+        "lng": -66.9300
+      }
     ],
+    [
+      {
+        "nombre": "Excursión a Playa Caribe",
+        "duracion": "4h",
+        "lat": 10.5910,
+        "lng": -66.9180
+      },
+      {
+        "nombre": "Almuerzo en chiringuito costero",
+        "duracion": "1.5h",
+        "lat": 10.5905,
+        "lng": -66.9170
+      },
+      {
+        "nombre": "Tarde de snorkel en Playa Los Ángeles",
+        "duracion": "2h",
+        "lat": 10.5850,
+        "lng": -66.9100
+      },
+      {
+        "nombre": "Puesta de sol en el faro de La Guaira",
+        "duracion": "1h",
+        "lat": 10.5990,
+        "lng": -66.9315
+      },
+      {
+        "nombre": "Cena frente al mar",
+        "duracion": "1.5h",
+        "lat": 10.5982,
+        "lng": -66.9290
+      }
+    ],
+    [
+      {
+        "nombre": "Traslado a Caracas",
+        "duracion": "1h",
+        "lat": 10.4800,
+        "lng": -66.9036
+      },
+      {
+        "nombre": "Visita al Parque Central",
+        "duracion": "2h",
+        "lat": 10.4925,
+        "lng": -66.8809
+      },
+      {
+        "nombre": "Museo de Arte Contemporáneo",
+        "duracion": "2h",
+        "lat": 10.4885,
+        "lng": -66.8996
+      },
+      {
+        "nombre": "Almuerzo en el Mercado Municipal",
+        "duracion": "1.5h",
+        "lat": 10.5000,
+        "lng": -66.8900
+      },
+      {
+        "nombre": "Paseo por la Plaza Bolívar de Caracas",
+        "duracion": "1h",
+        "lat": 10.5050,
+        "lng": -66.9146
+      }
+    ],
+    [
+      {
+        "nombre": "Teleférico al Ávila",
+        "duracion": "3h",
+        "lat": 10.5150,
+        "lng": -66.8700
+      },
+      {
+        "nombre": "Almuerzo en Galipán",
+        "duracion": "1.5h",
+        "lat": 10.5360,
+        "lng": -66.8500
+      },
+      {
+        "nombre": "Regreso a La Guaira",
+        "duracion": "1h",
+        "lat": 10.6000,
+        "lng": -66.9300
+      },
+      {
+        "nombre": "Tour histórico por La Guaira",
+        "duracion": "2h",
+        "lat": 10.5965,
+        "lng": -66.9270
+      },
+      {
+        "nombre": "Noche cultural con música local",
+        "duracion": "2h",
+        "lat": 10.5995,
+        "lng": -66.9295
+      }
+    ],
+    [
+      {
+        "nombre": "Desayuno tranquilo en el hotel",
+        "duracion": "1h",
+        "lat": 10.6000,
+        "lng": -66.9300
+      },
+      {
+        "nombre": "Compra de recuerdos en mercado artesanal",
+        "duracion": "1h",
+        "lat": 10.5970,
+        "lng": -66.9280
+      },
+      {
+        "nombre": "Último paseo por el malecón",
+        "duracion": "1h",
+        "lat": 10.5972,
+        "lng": -66.9286
+      },
+      {
+        "nombre": "Check-out y traslado al aeropuerto",
+        "duracion": "1h",
+        "lat": 10.6030,
+        "lng": -66.9570
+      },
+      {
+        "nombre": "Despedida del país",
+        "duracion": "0.5h",
+        "lat": 10.6030,
+        "lng": -66.9570
+      }
+    ]
+  ],
     "recomendaciones": [
       {
         "nombre": "Visitar el Salto Ángel",
@@ -1007,87 +1085,213 @@
     ]
   },
   {
-    "id": 7,
-    "titulo": "Relax en las islas Fiyi",
-    "descripcion": "Un viaje de ensueño entre playas, snorkel y naturaleza tropical.",
-    "favorito": false,
-    "pais": "Fiyi",
-    "destino": "Islas Fiyi",
-    "ciudades": "Suva",
-    "dias": 6,
-    "presupuesto": "Alto",
-    "tipo": "Relax y Aventura",
-    "moneda": "FJD",
-    "idioma": "Inglés",
-    "epoca": "Verano",
-    "actividades": [
-      [
-        {
-          "nombre": "Llegada a Suva",
-          "duracion": "1h",
-          "lat": -18.1416,
-          "lng": 178.4419
-        },
-        {
-          "nombre": "Check-in resort",
-          "duracion": "1h",
-          "lat": -18.1416,
-          "lng": 178.4419
-        },
-        {
-          "nombre": "Paseo por la ciudad",
-          "duracion": "2h",
-          "lat": -18.142,
-          "lng": 178.441
-        },
-        {
-          "nombre": "Cena con vista al mar",
-          "duracion": "2h",
-          "lat": -18.1416,
-          "lng": 178.4419
-        }
-      ],
-      [
-        {
-          "nombre": "Snorkeling en la barrera coralina",
-          "duracion": "4h",
-          "lat": -18.1700,
-          "lng": 178.5000
-        }
-      ],
-      [
-        {
-          "nombre": "Visita a las Cataratas de Bouma",
-          "duracion": "3h",
-          "lat": -18.1530,
-          "lng": 178.8000
-        }
-      ],
-      [
-        {
-          "nombre": "Día libre en la playa",
-          "duracion": "Todo el día",
-          "lat": -18.1416,
-          "lng": 178.4419
-        }
-      ],
-      [
-        {
-          "nombre": "Tour cultural fiyiano",
-          "duracion": "3h",
-          "lat": -18.1330,
-          "lng": 178.4500
-        }
-      ],
-      [
-        {
-          "nombre": "Cena de despedida",
-          "duracion": "2h",
-          "lat": -18.1416,
-          "lng": 178.4419
-        }
-      ]
+  "id": 7,
+  "titulo": "Relax en las islas Fiyi",
+  "descripcion": "Un viaje de ensueño entre playas, snorkel y naturaleza tropical.",
+  "favorito": false,
+  "pais": "Fiyi",
+  "destino": "Islas Fiyi",
+  "ciudades": "Suva",
+  "dias": 6,
+  "presupuesto": "Estandar",
+  "tipo": "Cultural",
+  "moneda": "FJD",
+  "idioma": "Inglés",
+  "epoca": "Verano",
+  "actividades": [
+    [
+      {
+        "nombre": "Llegada a Suva",
+        "duracion": "1h",
+        "lat": -18.1416,
+        "lng": 178.4419
+      },
+      {
+        "nombre": "Check-in resort",
+        "duracion": "1h",
+        "lat": -18.1416,
+        "lng": 178.4419
+      },
+      {
+        "nombre": "Paseo por el mercado de Suva",
+        "duracion": "1.5h",
+        "lat": -18.1410,
+        "lng": 178.4425
+      },
+      {
+        "nombre": "Visita al Fiji Museum",
+        "duracion": "1.5h",
+        "lat": -18.1420,
+        "lng": 178.4428
+      },
+      {
+        "nombre": "Cena con vista al mar",
+        "duracion": "2h",
+        "lat": -18.1416,
+        "lng": 178.4419
+      }
     ],
+    [
+      {
+        "nombre": "Snorkeling en la barrera coralina",
+        "duracion": "4h",
+        "lat": -18.1700,
+        "lng": 178.5000
+      },
+      {
+        "nombre": "Picnic en la playa",
+        "duracion": "1.5h",
+        "lat": -18.1750,
+        "lng": 178.4900
+      },
+      {
+        "nombre": "Tarde de relax bajo las palmeras",
+        "duracion": "2h",
+        "lat": -18.1720,
+        "lng": 178.4850
+      },
+      {
+        "nombre": "Caminata costera al atardecer",
+        "duracion": "1h",
+        "lat": -18.1600,
+        "lng": 178.4700
+      },
+      {
+        "nombre": "Cena en restaurante tradicional",
+        "duracion": "1.5h",
+        "lat": -18.1500,
+        "lng": 178.4600
+      }
+    ],
+    [
+      {
+        "nombre": "Excursión a las Cataratas de Bouma",
+        "duracion": "3h",
+        "lat": -18.1530,
+        "lng": 178.8000
+      },
+      {
+        "nombre": "Senderismo por el Parque Nacional Bouma",
+        "duracion": "2h",
+        "lat": -18.1550,
+        "lng": 178.7900
+      },
+      {
+        "nombre": "Almuerzo en lodge ecológico",
+        "duracion": "1.5h",
+        "lat": -18.1520,
+        "lng": 178.7950
+      },
+      {
+        "nombre": "Observación de aves tropicales",
+        "duracion": "1h",
+        "lat": -18.1570,
+        "lng": 178.8020
+      },
+      {
+        "nombre": "Baño en piscinas naturales",
+        "duracion": "1h",
+        "lat": -18.1500,
+        "lng": 178.7980
+      }
+    ],
+    [
+      {
+        "nombre": "Desayuno frente al mar",
+        "duracion": "1h",
+        "lat": -18.1416,
+        "lng": 178.4419
+      },
+      {
+        "nombre": "Día libre en la playa",
+        "duracion": "3h",
+        "lat": -18.1450,
+        "lng": 178.4440
+      },
+      {
+        "nombre": "Clase de yoga al aire libre",
+        "duracion": "1h",
+        "lat": -18.1460,
+        "lng": 178.4450
+      },
+      {
+        "nombre": "Masaje en el spa del resort",
+        "duracion": "1h",
+        "lat": -18.1410,
+        "lng": 178.4410
+      },
+      {
+        "nombre": "Cena tipo buffet fiyiano",
+        "duracion": "1.5h",
+        "lat": -18.1416,
+        "lng": 178.4419
+      }
+    ],
+    [
+      {
+        "nombre": "Tour cultural fiyiano",
+        "duracion": "3h",
+        "lat": -18.1330,
+        "lng": 178.4500
+      },
+      {
+        "nombre": "Demostración de danza y música local",
+        "duracion": "1.5h",
+        "lat": -18.1320,
+        "lng": 178.4490
+      },
+      {
+        "nombre": "Taller de artesanía tradicional",
+        "duracion": "1h",
+        "lat": -18.1340,
+        "lng": 178.4510
+      },
+      {
+        "nombre": "Almuerzo comunitario en aldea",
+        "duracion": "1.5h",
+        "lat": -18.1350,
+        "lng": 178.4520
+      },
+      {
+        "nombre": "Regreso al resort y descanso",
+        "duracion": "1h",
+        "lat": -18.1416,
+        "lng": 178.4419
+      }
+    ],
+    [
+      {
+        "nombre": "Desayuno tropical",
+        "duracion": "1h",
+        "lat": -18.1416,
+        "lng": 178.4419
+      },
+      {
+        "nombre": "Paseo por el jardín botánico de Suva",
+        "duracion": "1.5h",
+        "lat": -18.1380,
+        "lng": 178.4430
+      },
+      {
+        "nombre": "Compras de souvenirs",
+        "duracion": "1h",
+        "lat": -18.1400,
+        "lng": 178.4420
+      },
+      {
+        "nombre": "Cena de despedida",
+        "duracion": "2h",
+        "lat": -18.1416,
+        "lng": 178.4419
+      },
+      {
+        "nombre": "Traslado al aeropuerto",
+        "duracion": "1h",
+        "lat": -18.0433,
+        "lng": 178.5596
+      }
+    ]
+  ],
     "recomendaciones": [
       {
         "nombre": "Snorkel en la Isla de Taveuni",
@@ -1139,92 +1343,176 @@
       }
     ]
   },
-  {
-    "id": 8,
-    "titulo": "Sídney y naturaleza australiana",
-    "descripcion": "Descubre la ciudad y explora sus parques y fauna.",
-    "favorito": false,
-    "pais": "Australia",
-    "destino": "Australia",
-    "ciudades": "Sídney",
-    "dias": 5,
-    "presupuesto": "Alto",
-    "tipo": "Ciudad y Naturaleza",
-    "moneda": "AUD",
-    "idioma": "Inglés",
-    "epoca": "Otoño",
-    "actividades": [
-      [
-        {
-          "nombre": "Llegada a Sídney",
-          "duracion": "1h",
-          "lat": -33.8688,
-          "lng": 151.2093
-        },
-        {
-          "nombre": "Check-in hotel",
-          "duracion": "0.5h",
-          "lat": -33.8688,
-          "lng": 151.2093
-        },
-        {
-          "nombre": "Paseo por la Ópera de Sídney",
-          "duracion": "2h",
-          "lat": -33.8568,
-          "lng": 151.2153
-        },
-        {
-          "nombre": "Cena en restaurante del puerto",
-          "duracion": "1.5h",
-          "lat": -33.8587,
-          "lng": 151.2100
-        }
-      ],
-      [
-        {
-          "nombre": "Visita a Bondi Beach",
-          "duracion": "3h",
-          "lat": -33.8908,
-          "lng": 151.2743
-        },
-        {
-          "nombre": "Almuerzo en la playa",
-          "duracion": "1h",
-          "lat": -33.8908,
-          "lng": 151.2743
-        }
-      ],
-      [
-        {
-          "nombre": "Recorrido por el Jardín Botánico",
-          "duracion": "2h",
-          "lat": -33.8642,
-          "lng": 151.2166
-        },
-        {
-          "nombre": "Tour en ferry por la bahía",
-          "duracion": "3h",
-          "lat": -33.8688,
-          "lng": 151.2093
-        }
-      ],
-      [
-        {
-          "nombre": "Visita a Darling Harbour",
-          "duracion": "3h",
-          "lat": -33.8750,
-          "lng": 151.2000
-        }
-      ],
-      [
-        {
-          "nombre": "Día libre para compras y relax",
-          "duracion": "Todo el día",
-          "lat": -33.8688,
-          "lng": 151.2093
-        }
-      ]
+{
+  "id": 8,
+  "titulo": "Sídney y naturaleza australiana",
+  "descripcion": "Descubre la ciudad y explora sus parques y fauna.",
+  "favorito": false,
+  "pais": "Australia",
+  "destino": "Australia",
+  "ciudades": "Sídney",
+  "dias": 5,
+  "presupuesto": "Estandar",
+  "tipo": "Cultural",
+  "moneda": "AUD",
+  "idioma": "Inglés",
+  "epoca": "Otoño",
+  "actividades": [
+    [
+      {
+        "nombre": "Llegada a Sídney",
+        "duracion": "1h",
+        "lat": -33.8688,
+        "lng": 151.2093
+      },
+      {
+        "nombre": "Check-in en hotel del centro",
+        "duracion": "0.5h",
+        "lat": -33.8690,
+        "lng": 151.2094
+      },
+      {
+        "nombre": "Paseo por la Ópera de Sídney",
+        "duracion": "2h",
+        "lat": -33.8568,
+        "lng": 151.2153
+      },
+      {
+        "nombre": "Vistas desde el Harbour Bridge",
+        "duracion": "1.5h",
+        "lat": -33.8523,
+        "lng": 151.2108
+      },
+      {
+        "nombre": "Cena en Circular Quay",
+        "duracion": "1.5h",
+        "lat": -33.8590,
+        "lng": 151.2094
+      }
     ],
+    [
+      {
+        "nombre": "Excursión a Bondi Beach",
+        "duracion": "3h",
+        "lat": -33.8908,
+        "lng": 151.2743
+      },
+      {
+        "nombre": "Paseo costero Bondi to Coogee",
+        "duracion": "2h",
+        "lat": -33.8910,
+        "lng": 151.2750
+      },
+      {
+        "nombre": "Almuerzo en restaurante frente al mar",
+        "duracion": "1.5h",
+        "lat": -33.8920,
+        "lng": 151.2755
+      },
+      {
+        "nombre": "Relajarse en la playa de Bronte",
+        "duracion": "1.5h",
+        "lat": -33.9050,
+        "lng": 151.2630
+      },
+      {
+        "nombre": "Regreso al hotel",
+        "duracion": "1h",
+        "lat": -33.8688,
+        "lng": 151.2093
+      }
+    ],
+    [
+      {
+        "nombre": "Visita al Jardín Botánico Real",
+        "duracion": "2h",
+        "lat": -33.8642,
+        "lng": 151.2166
+      },
+      {
+        "nombre": "Ferry hasta Manly Beach",
+        "duracion": "1h",
+        "lat": -33.7963,
+        "lng": 151.2820
+      },
+      {
+        "nombre": "Comida en Manly",
+        "duracion": "1.5h",
+        "lat": -33.7970,
+        "lng": 151.2840
+      },
+      {
+        "nombre": "Paseo y baño en la playa de Manly",
+        "duracion": "2h",
+        "lat": -33.7980,
+        "lng": 151.2850
+      },
+      {
+        "nombre": "Regreso a Sídney en ferry al atardecer",
+        "duracion": "1.5h",
+        "lat": -33.8688,
+        "lng": 151.2093
+      }
+    ],
+    [
+      {
+        "nombre": "Excursión al Parque Nacional Blue Mountains",
+        "duracion": "3h",
+        "lat": -33.7311,
+        "lng": 150.3129
+      },
+      {
+        "nombre": "Mirador de las Three Sisters",
+        "duracion": "1h",
+        "lat": -33.7313,
+        "lng": 150.3120
+      },
+      {
+        "nombre": "Almuerzo en Katoomba",
+        "duracion": "1.5h",
+        "lat": -33.7120,
+        "lng": 150.3110
+      },
+      {
+        "nombre": "Teleférico Scenic Skyway",
+        "duracion": "1h",
+        "lat": -33.7286,
+        "lng": 150.3050
+      },
+      {
+        "nombre": "Regreso a Sídney",
+        "duracion": "2h",
+        "lat": -33.8688,
+        "lng": 151.2093
+      }
+    ],
+    [
+      {
+        "nombre": "Desayuno en The Rocks",
+        "duracion": "1h",
+        "lat": -33.8594,
+        "lng": 151.2089
+      },
+      {
+        "nombre": "Paseo y compras en Queen Victoria Building",
+        "duracion": "2h",
+        "lat": -33.8728,
+        "lng": 151.2061
+      },
+      {
+        "nombre": "Visita rápida a Darling Harbour",
+        "duracion": "1h",
+        "lat": -33.8750,
+        "lng": 151.2000
+      },
+      {
+        "nombre": "Traslado al aeropuerto",
+        "duracion": "1h",
+        "lat": -33.9399,
+        "lng": 151.1753
+      }
+    ]
+  ],
     "recomendaciones": [
       {
         "nombre": "Visitar la Ópera de Sídney",
@@ -1277,87 +1565,201 @@
     ]
   },
   {
-    "id": 9,
-    "titulo": "Ritmo brasileño en Río",
-    "descripcion": "Carnaval, playas y vistas impresionantes en Río de Janeiro.",
-    "favorito": false,
-    "pais": "Brasil",
-    "destino": "Brasil",
-    "ciudades": "Río de Janeiro",
-    "dias": 6,
-    "presupuesto": "Intermedio",
-    "tipo": "Fiesta y Naturaleza",
-    "moneda": "BRL",
-    "idioma": "Portugués",
-    "epoca": "Verano",
-    "actividades": [
-      [
-        {
-          "nombre": "Llegada a Río",
-          "duracion": "1h",
-          "lat": -22.9068,
-          "lng": -43.1729
-        },
-        {
-          "nombre": "Check-in hotel",
-          "duracion": "0.5h",
-          "lat": -22.9068,
-          "lng": -43.1729
-        },
-        {
-          "nombre": "Visita a la playa de Copacabana",
-          "duracion": "3h",
-          "lat": -22.9711,
-          "lng": -43.1822
-        },
-        {
-          "nombre": "Cena en restaurante local",
-          "duracion": "2h",
-          "lat": -22.9068,
-          "lng": -43.1729
-        }
-      ],
-      [
-        {
-          "nombre": "Subida al Cristo Redentor",
-          "duracion": "3h",
-          "lat": -22.9519,
-          "lng": -43.2105
-        }
-      ],
-      [
-        {
-          "nombre": "Tour por el barrio de Santa Teresa",
-          "duracion": "3h",
-          "lat": -22.9135,
-          "lng": -43.1807
-        }
-      ],
-      [
-        {
-          "nombre": "Día en el Parque Nacional Tijuca",
-          "duracion": "Todo el día",
-          "lat": -22.9493,
-          "lng": -43.2328
-        }
-      ],
-      [
-        {
-          "nombre": "Cena de despedida en Lapa",
-          "duracion": "2h",
-          "lat": -22.9112,
-          "lng": -43.1800
-        }
-      ],
-      [
-        {
-          "nombre": "Mañana libre y salida",
-          "duracion": "2h",
-          "lat": -22.9068,
-          "lng": -43.1729
-        }
-      ]
+  "id": 9,
+  "titulo": "Ritmo brasileño en Río",
+  "descripcion": "Carnaval, playas y vistas impresionantes en Río de Janeiro.",
+  "favorito": false,
+  "pais": "Brasil",
+  "destino": "Brasil",
+  "ciudades": "Río de Janeiro",
+  "dias": 6,
+  "presupuesto": "Estandar",
+  "tipo": "Cultural",
+  "moneda": "BRL",
+  "idioma": "Portugués",
+  "epoca": "Verano",
+  "actividades": [
+    [
+      {
+        "nombre": "Llegada a Río",
+        "duracion": "1h",
+        "lat": -22.9068,
+        "lng": -43.1729
+      },
+      {
+        "nombre": "Check-in hotel",
+        "duracion": "0.5h",
+        "lat": -22.9068,
+        "lng": -43.1729
+      },
+      {
+        "nombre": "Visita a la playa de Copacabana",
+        "duracion": "3h",
+        "lat": -22.9711,
+        "lng": -43.1822
+      },
+      {
+        "nombre": "Puesta de sol en Ipanema",
+        "duracion": "1.5h",
+        "lat": -22.9836,
+        "lng": -43.2048
+      },
+      {
+        "nombre": "Cena en restaurante local",
+        "duracion": "2h",
+        "lat": -22.9068,
+        "lng": -43.1729
+      }
     ],
+    [
+      {
+        "nombre": "Subida al Cristo Redentor",
+        "duracion": "3h",
+        "lat": -22.9519,
+        "lng": -43.2105
+      },
+      {
+        "nombre": "Paseo por el Parque Lage",
+        "duracion": "1.5h",
+        "lat": -22.9681,
+        "lng": -43.2152
+      },
+      {
+        "nombre": "Almuerzo en Jardim Botânico",
+        "duracion": "1.5h",
+        "lat": -22.9686,
+        "lng": -43.2244
+      },
+      {
+        "nombre": "Visita al Jardín Botánico de Río",
+        "duracion": "2h",
+        "lat": -22.9686,
+        "lng": -43.2290
+      },
+      {
+        "nombre": "Tarde libre en el hotel o compras",
+        "duracion": "1.5h",
+        "lat": -22.9068,
+        "lng": -43.1729
+      }
+    ],
+    [
+      {
+        "nombre": "Tour por el barrio de Santa Teresa",
+        "duracion": "3h",
+        "lat": -22.9135,
+        "lng": -43.1807
+      },
+      {
+        "nombre": "Escadaria Selarón",
+        "duracion": "1h",
+        "lat": -22.9162,
+        "lng": -43.1794
+      },
+      {
+        "nombre": "Museo de Arte Moderno (MAM)",
+        "duracion": "2h",
+        "lat": -22.9114,
+        "lng": -43.1726
+      },
+      {
+        "nombre": "Almuerzo en Cinelândia",
+        "duracion": "1.5h",
+        "lat": -22.9083,
+        "lng": -43.1769
+      },
+      {
+        "nombre": "Paseo por el centro histórico",
+        "duracion": "1.5h",
+        "lat": -22.9035,
+        "lng": -43.1768
+      }
+    ],
+    [
+      {
+        "nombre": "Día en el Parque Nacional Tijuca",
+        "duracion": "4h",
+        "lat": -22.9493,
+        "lng": -43.2328
+      },
+      {
+        "nombre": "Caminata hasta la Cascada Taunay",
+        "duracion": "1.5h",
+        "lat": -22.9542,
+        "lng": -43.2545
+      },
+      {
+        "nombre": "Picnic en la naturaleza",
+        "duracion": "1h",
+        "lat": -22.9510,
+        "lng": -43.2400
+      },
+      {
+        "nombre": "Regreso y descanso",
+        "duracion": "1h",
+        "lat": -22.9068,
+        "lng": -43.1729
+      },
+      {
+        "nombre": "Tarde libre o paseo por la playa",
+        "duracion": "1.5h",
+        "lat": -22.9711,
+        "lng": -43.1822
+      }
+    ],
+    [
+      {
+        "nombre": "Teleférico al Pan de Azúcar",
+        "duracion": "2h",
+        "lat": -22.9486,
+        "lng": -43.1565
+      },
+      {
+        "nombre": "Mirador Urca",
+        "duracion": "1h",
+        "lat": -22.9516,
+        "lng": -43.1656
+      },
+      {
+        "nombre": "Paseo en barco por la bahía de Guanabara",
+        "duracion": "2h",
+        "lat": -22.8937,
+        "lng": -43.1699
+      },
+      {
+        "nombre": "Tarde de samba en Lapa",
+        "duracion": "2h",
+        "lat": -22.9112,
+        "lng": -43.1800
+      },
+      {
+        "nombre": "Cena de despedida en Lapa",
+        "duracion": "2h",
+        "lat": -22.9112,
+        "lng": -43.1800
+      }
+    ],
+    [
+      {
+        "nombre": "Desayuno tranquilo en el hotel",
+        "duracion": "1h",
+        "lat": -22.9068,
+        "lng": -43.1729
+      },
+      {
+        "nombre": "Últimas compras en feirinha de Ipanema",
+        "duracion": "1.5h",
+        "lat": -22.9840,
+        "lng": -43.2060
+      },
+      {
+        "nombre": "Check-out y traslado al aeropuerto",
+        "duracion": "1h",
+        "lat": -22.8090,
+        "lng": -43.2500
+      }
+    ]
+  ],
     "recomendaciones": [
       {
         "nombre": "Subir al Cristo Redentor",
@@ -1418,8 +1820,8 @@
     "destino": "Argentina",
     "ciudades": "Buenos Aires",
     "dias": 5,
-    "presupuesto": "Intermedio",
-    "tipo": "Cultura y Ciudad",
+    "presupuesto": "Estandar",
+    "tipo": "Cultural",
     "moneda": "ARS",
     "idioma": "Español",
     "epoca": "Primavera",

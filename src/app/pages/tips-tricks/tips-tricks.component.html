@@ -1,0 +1,21 @@
+<div class="tips-wrapper">
+  <div class="tips-container">
+    <h1 class="tips-title">Consejos útiles para viajar</h1>
+    <p class="tips-subtitle mb-4">
+      Viajar es genial, pero puede ser un caos si no sabes lo que haces. Aquí tienes una colección de consejitos salvavidas para que no termines durmiendo en un aeropuerto o comiéndote una multa por no llevar el pasaporte. ¡Planifica como un pro y viaja sin dramas!
+    </p>
+
+    <div class="accordion" *ngFor="let tip of consejos; let i = index">
+      <div class="accordion-header" (click)="toggle(i)">
+        <h2 class="h5">{{ tip.titulo }}</h2>
+        <span>{{ openIndex === i ? '−' : '+' }}</span>
+      </div>
+      <div class="accordion-content" *ngIf="openIndex === i">
+        <div *ngFor="let item of tip.contenido" class="tip-item">
+          <h3 class="tip-subtitulo h6 fw-bold">{{ item.subtitulo }}</h3>
+          <p class="tip-texto">{{ item.texto }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
